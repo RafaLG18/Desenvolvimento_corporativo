@@ -1,0 +1,13 @@
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/ClienteTeste.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/DbUnitUtil.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/FornecedorTeste.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/ImagemTeste.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/PedidoTeste.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/ServicoTeste.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/Teste.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/TesteSuite.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/jpqltests/ClienteTests.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/jpqltests/FornecedoresTests.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/jpqltests/GenericTest.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/jpqltests/PedidoTests.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/jpqltests/ServicoTests.java

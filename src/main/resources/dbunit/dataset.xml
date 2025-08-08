@@ -1,0 +1,191 @@
+<dataset>
+    <!-- CLIENTES -->
+    <TB_USUARIO TXT_CPF="065.173.480-00" TXT_LOGIN="cliente1" TXT_NOME="Alice Lima" 
+                TXT_EMAIL="alice@email.com" TXT_SENHA="1234" DISC_USUARIO="Cliente"
+                END_TXT_LOGRADOURO="Rua das Flores" END_TXT_BAIRRO="Centro" END_NUMERO="10"
+                END_TXT_COMPLEMENTO="Apto 101" END_TXT_CEP="01010-000"
+                END_TXT_CIDADE="São Paulo" END_TXT_ESTADO="SP"/>
+    <TB_TELEFONE ID_USUARIO="1" TXT_NUM_TELEFONE="88818182"/>
+    <TB_PEDIDO DT_PEDIDO="2025-08-12" TXT_TIPO_PAGAMENTO="PIX" />
+    <TB_CLIENTE ID_USUARIO="1" ID_PEDIDO="1"/>
+  
+    <TB_USUARIO TXT_CPF="101.127.240-78" TXT_LOGIN="cliente2" TXT_NOME="Bruno Souza" 
+                TXT_EMAIL="bruno@email.com" TXT_SENHA="abcd" DISC_USUARIO="Cliente"
+                END_TXT_LOGRADOURO="Av. Brasil" END_TXT_BAIRRO="Jardins" END_NUMERO="205"
+                END_TXT_COMPLEMENTO="Casa" END_TXT_CEP="22220-200"
+                END_TXT_CIDADE="Rio de Janeiro" END_TXT_ESTADO="RJ"/>
+    <TB_TELEFONE ID_USUARIO="2" TXT_NUM_TELEFONE="888181232"/>
+    <TB_PEDIDO DT_PEDIDO="2025-09-12" TXT_TIPO_PAGAMENTO="CARTAO"/>
+    <TB_CLIENTE ID_USUARIO="2" ID_PEDIDO="2"/>
+  
+    <!-- FORNECEDORES -->
+    <TB_USUARIO TXT_CPF="213.002.850-01" TXT_LOGIN="fornecedor1" TXT_NOME="Daniel Ferreira" 
+                TXT_EMAIL="daniel@email.com" TXT_SENHA="4321" DISC_USUARIO="Fornecedor"
+                END_TXT_LOGRADOURO="Travessa da Serra" END_TXT_BAIRRO="Industrial" END_NUMERO="5"
+                END_TXT_COMPLEMENTO="" END_TXT_CEP="69000-001"
+                END_TXT_CIDADE="Manaus" END_TXT_ESTADO="AM"/>
+    <TB_TELEFONE ID_USUARIO="3" TXT_NUM_TELEFONE="8881818212"/>
+    <TB_FORNECEDOR ID_USUARIO="3"/>
+
+    <TB_USUARIO TXT_CPF="228.507.864-11" TXT_LOGIN="fornecedor2" TXT_NOME="Elisa Campos" 
+                TXT_EMAIL="elisa@email.com" TXT_SENHA="zxcv" DISC_USUARIO="Fornecedor"
+                END_TXT_LOGRADOURO="Rua das Palmeiras" END_TXT_BAIRRO="Horto" END_NUMERO="33"
+                END_TXT_COMPLEMENTO="Galpão 2" END_TXT_CEP="30140-080"
+                END_TXT_CIDADE="Belo Horizonte" END_TXT_ESTADO="MG"/>
+    <TB_TELEFONE ID_USUARIO="4" TXT_NUM_TELEFONE="8881818122"/>
+    <TB_FORNECEDOR ID_USUARIO="4"/>
+
+    <!-- SERVIÇOS -->
+    <TB_SERVICO TXT_NOME="Manutenção Elétrica" TXT_TIPO="Residencial" TXT_PRECO="150.00"/>
+    <TB_SERVICO TXT_NOME="Jardinagem" TXT_TIPO="Comercial" TXT_PRECO="200.00"/>
+    <TB_SERVICO TXT_NOME="Limpeza Pós-Obra" TXT_TIPO="Industrial" TXT_PRECO="300.00"/>
+
+    <!-- FORNECEDORES x SERVIÇOS -->
+    <TB_USUARIO_SERVICO ID_USUARIO="3" ID_SERVICO="1"/>
+    <TB_USUARIO_SERVICO ID_USUARIO="4" ID_SERVICO="2"/>
+    <TB_USUARIO_SERVICO ID_USUARIO="4" ID_SERVICO="3"/>
+
+    <!-- IMAGENS associadas aos clientes -->
+    <TB_IMAGEM BYTE_IMAGE="QmluYXJ5SW1hZ2Uy" ID_USUARIO="2"/>
+    <TB_IMAGEM BYTE_IMAGE="SW1hZ2VtRG9jdW1lbnRv" ID_USUARIO="2"/>
+    <TB_IMAGEM BYTE_IMAGE="UGVyZmlsSW1hZ2VtQnJ1bm8=" ID_USUARIO="2"/>
+    <TB_IMAGEM BYTE_IMAGE="Rm90b0lkZW50aWZpY2FjYW8=" ID_USUARIO="2"/>
+  
+    <!-- CLIENTE -->
+    <TB_USUARIO TXT_CPF="253.133.256-12" TXT_LOGIN="cliente3" TXT_NOME="Bruno Souza Melo" 
+                TXT_EMAIL="bruno-melo@email.com" TXT_SENHA="abcd" DISC_USUARIO="Cliente"
+                END_TXT_LOGRADOURO="Av. Brasil Melo" END_TXT_BAIRRO="Jardins Melo" END_NUMERO="2053"
+                END_TXT_COMPLEMENTO="Casa" END_TXT_CEP="22223-200"
+                END_TXT_CIDADE="Rio de Janeiro" END_TXT_ESTADO="RJ"/>
+    <TB_TELEFONE ID_USUARIO="5" TXT_NUM_TELEFONE="21988776655"/>
+    <TB_CLIENTE ID_USUARIO="5"/>
+
+    <TB_USUARIO TXT_CPF="261.434.477-05" TXT_LOGIN="cliente6" TXT_NOME="Alice Lima 2" 
+                TXT_EMAIL="alice-1@email.com" TXT_SENHA="1234" DISC_USUARIO="Cliente"
+                END_TXT_LOGRADOURO="Rua das Flores" END_TXT_BAIRRO="Centro" END_NUMERO="10"
+                END_TXT_COMPLEMENTO="Apto 101" END_TXT_CEP="01010-000"
+                END_TXT_CIDADE="São Paulo" END_TXT_ESTADO="SP"/>
+    <TB_TELEFONE ID_USUARIO="6" TXT_NUM_TELEFONE="888182182"/>
+    <TB_PEDIDO DT_PEDIDO="2025-08-12" TXT_TIPO_PAGAMENTO="PIX" />
+    <TB_CLIENTE ID_USUARIO="6" ID_PEDIDO="3"/>                
+
+    <TB_USUARIO TXT_CPF="314.804.332-41" TXT_LOGIN="cliente7" TXT_NOME="Alice Lima 3" 
+                TXT_EMAIL="alice-3@email.com" TXT_SENHA="1234" DISC_USUARIO="Cliente"
+                END_TXT_LOGRADOURO="Rua das Flores" END_TXT_BAIRRO="Centro" END_NUMERO="10"
+                END_TXT_COMPLEMENTO="Apto 101" END_TXT_CEP="01010-000"
+                END_TXT_CIDADE="São Paulo" END_TXT_ESTADO="SP"/>
+    <TB_TELEFONE ID_USUARIO="7" TXT_NUM_TELEFONE="888182183"/>
+    <TB_PEDIDO DT_PEDIDO="2025-08-12" TXT_TIPO_PAGAMENTO="PIX" />
+    <TB_CLIENTE ID_USUARIO="7" ID_PEDIDO="4"/> 
+
+    <!-- FORNECEDORES ADICIONAIS -->
+    <TB_USUARIO TXT_CPF="404.477.023-94" TXT_LOGIN="fornecedor8" TXT_NOME="Daniel Ferreira 2" 
+                TXT_EMAIL="daniel-5@email.com" TXT_SENHA="4321" DISC_USUARIO="Fornecedor"
+                END_TXT_LOGRADOURO="Travessa da Serra" END_TXT_BAIRRO="Industrial" END_NUMERO="5"
+                END_TXT_COMPLEMENTO="" END_TXT_CEP="69000-001"
+                END_TXT_CIDADE="Manaus" END_TXT_ESTADO="AM"/>
+    <TB_TELEFONE ID_USUARIO="8" TXT_NUM_TELEFONE="8881818217"/>
+    <TB_FORNECEDOR ID_USUARIO="8"/>
+
+    <TB_USUARIO TXT_CPF="495.353.744-00" TXT_LOGIN="fornecedor9" TXT_NOME="Carlos Roberto Silva" 
+                TXT_EMAIL="carlos.silva@email.com" TXT_SENHA="senha123" DISC_USUARIO="Fornecedor"
+                END_TXT_LOGRADOURO="Rua dos Engenheiros" END_TXT_BAIRRO="Zona Norte" END_NUMERO="78"
+                END_TXT_COMPLEMENTO="Sala 301" END_TXT_CEP="20000-100"
+                END_TXT_CIDADE="Rio de Janeiro" END_TXT_ESTADO="RJ"/>
+    <TB_TELEFONE ID_USUARIO="9" TXT_NUM_TELEFONE="2198765432"/>
+    <TB_FORNECEDOR ID_USUARIO="9"/>
+
+    <TB_USUARIO TXT_CPF="618.359.546-26" TXT_LOGIN="fornecedor10" TXT_NOME="Mariana Costa" 
+                TXT_EMAIL="mariana.costa@email.com" TXT_SENHA="abc456" DISC_USUARIO="Fornecedor"
+                END_TXT_LOGRADOURO="Av. das Indústrias" END_TXT_BAIRRO="Distrito Industrial" END_NUMERO="1200"
+                END_TXT_COMPLEMENTO="Galpão A" END_TXT_CEP="12345-678"
+                END_TXT_CIDADE="São José dos Campos" END_TXT_ESTADO="SP"/>
+    <TB_TELEFONE ID_USUARIO="10" TXT_NUM_TELEFONE="1234567890"/>
+    <TB_FORNECEDOR ID_USUARIO="10"/>
+
+    <TB_USUARIO TXT_CPF="722.500.850-13" TXT_LOGIN="fornecedor11" TXT_NOME="João Pedro Santos" 
+                TXT_EMAIL="joao.santos@email.com" TXT_SENHA="xyz789" DISC_USUARIO="Fornecedor"
+                END_TXT_LOGRADOURO="Rua das Oficinas" END_TXT_BAIRRO="Centro" END_NUMERO="45"
+                END_TXT_COMPLEMENTO="" END_TXT_CEP="80000-200"
+                END_TXT_CIDADE="Curitiba" END_TXT_ESTADO="PR"/>
+    <TB_TELEFONE ID_USUARIO="11" TXT_NUM_TELEFONE="4132456789"/>
+    <TB_FORNECEDOR ID_USUARIO="11"/>
+
+    <!-- CLIENTES ADICIONAIS -->
+    <TB_USUARIO TXT_CPF="727.000.611-36" TXT_LOGIN="cliente8" TXT_NOME="Fernanda Oliveira" 
+                TXT_EMAIL="fernanda.oliveira@email.com" TXT_SENHA="fern2023" DISC_USUARIO="Cliente"
+                END_TXT_LOGRADOURO="Rua das Acácias" END_TXT_BAIRRO="Vila Nova" END_NUMERO="123"
+                END_TXT_COMPLEMENTO="Apto 202" END_TXT_CEP="03000-000"
+                END_TXT_CIDADE="São Paulo" END_TXT_ESTADO="SP"/>
+    <TB_TELEFONE ID_USUARIO="12" TXT_NUM_TELEFONE="11987654321"/>
+    <TB_PEDIDO DT_PEDIDO="2025-10-15" TXT_TIPO_PAGAMENTO="CARTAO"/>
+    <TB_CLIENTE ID_USUARIO="12" ID_PEDIDO="5"/>
+
+    <TB_USUARIO TXT_CPF="734.668.770-16" TXT_LOGIN="cliente9" TXT_NOME="Ricardo Almeida" 
+                TXT_EMAIL="ricardo.almeida@email.com" TXT_SENHA="rick456" DISC_USUARIO="Cliente"
+                END_TXT_LOGRADOURO="Av. Copacabana" END_TXT_BAIRRO="Copacabana" END_NUMERO="567"
+                END_TXT_COMPLEMENTO="Cobertura" END_TXT_CEP="22000-300"
+                END_TXT_CIDADE="Rio de Janeiro" END_TXT_ESTADO="RJ"/>
+    <TB_TELEFONE ID_USUARIO="13" TXT_NUM_TELEFONE="21987123456"/>
+    <TB_PEDIDO DT_PEDIDO="2025-11-20" TXT_TIPO_PAGAMENTO="BOLETO"/>
+    <TB_CLIENTE ID_USUARIO="13" ID_PEDIDO="6"/>
+
+    <TB_USUARIO TXT_CPF="795.438.978-24" TXT_LOGIN="cliente10" TXT_NOME="Patrícia Lima" 
+                TXT_EMAIL="patricia.lima@email.com" TXT_SENHA="pat789" DISC_USUARIO="Cliente"
+                END_TXT_LOGRADOURO="Rua dos Girassóis" END_TXT_BAIRRO="Jardim América" END_NUMERO="890"
+                END_TXT_COMPLEMENTO="Casa 2" END_TXT_CEP="14000-400"
+                END_TXT_CIDADE="Ribeirão Preto" END_TXT_ESTADO="SP"/>
+    <TB_TELEFONE ID_USUARIO="14" TXT_NUM_TELEFONE="16912345678"/>
+    <TB_PEDIDO DT_PEDIDO="2025-12-05" TXT_TIPO_PAGAMENTO="PIX"/>
+    <TB_CLIENTE ID_USUARIO="14" ID_PEDIDO="7"/>
+
+    <!-- SERVIÇOS ADICIONAIS -->
+    <TB_SERVICO TXT_NOME="Pintura Residencial" TXT_TIPO="Residencial" TXT_PRECO="250.00"/>
+    <TB_SERVICO TXT_NOME="Reforma de Banheiro" TXT_TIPO="Residencial" TXT_PRECO="800.00"/>
+    <TB_SERVICO TXT_NOME="Instalação de Ar Condicionado" TXT_TIPO="Comercial" TXT_PRECO="350.00"/>
+    <TB_SERVICO TXT_NOME="Manutenção Hidráulica" TXT_TIPO="Industrial" TXT_PRECO="180.00"/>
+    <TB_SERVICO TXT_NOME="Limpeza de Escritório" TXT_TIPO="Comercial" TXT_PRECO="120.00"/>
+    <TB_SERVICO TXT_NOME="Reforma de Cozinha" TXT_TIPO="Residencial" TXT_PRECO="1200.00"/>
+    <TB_SERVICO TXT_NOME="Soldagem Industrial" TXT_TIPO="Industrial" TXT_PRECO="450.00"/>
+    <TB_SERVICO TXT_NOME="Paisagismo" TXT_TIPO="Comercial" TXT_PRECO="600.00"/>
+
+    <!-- RELAÇÕES FORNECEDORES x SERVIÇOS ADICIONAIS -->
+    <TB_USUARIO_SERVICO ID_USUARIO="9" ID_SERVICO="4"/>
+    <TB_USUARIO_SERVICO ID_USUARIO="9" ID_SERVICO="5"/>
+    <TB_USUARIO_SERVICO ID_USUARIO="10" ID_SERVICO="6"/>
+    <TB_USUARIO_SERVICO ID_USUARIO="10" ID_SERVICO="7"/>
+    <TB_USUARIO_SERVICO ID_USUARIO="11" ID_SERVICO="8"/>
+    <TB_USUARIO_SERVICO ID_USUARIO="11" ID_SERVICO="9"/>
+    <TB_USUARIO_SERVICO ID_USUARIO="8" ID_SERVICO="10"/>
+    <TB_USUARIO_SERVICO ID_USUARIO="9" ID_SERVICO="11"/>
+
+    <!-- IMAGENS ADICIONAIS -->
+    <TB_IMAGEM BYTE_IMAGE="SW1hZ2VtRGF0YTEyMw==" ID_USUARIO="12"/>
+    <TB_IMAGEM BYTE_IMAGE="Qm9uaXRvSW1hZ2VtNDU2" ID_USUARIO="13"/>
+    <TB_IMAGEM BYTE_IMAGE="RXhhbXBsZUltYWdlNzg5" ID_USUARIO="14"/>
+
+    <!-- CLIENTES SEM PEDIDO -->
+    <TB_USUARIO TXT_CPF="042.444.047-40" TXT_LOGIN="cliente11" TXT_NOME="Marcos Augusto" 
+                TXT_EMAIL="marcos.augusto@email.com" TXT_SENHA="marc123" DISC_USUARIO="Cliente"
+                END_TXT_LOGRADOURO="Rua das Palmeiras" END_TXT_BAIRRO="Vila Madalena" END_NUMERO="456"
+                END_TXT_COMPLEMENTO="Apto 12" END_TXT_CEP="05000-200"
+                END_TXT_CIDADE="São Paulo" END_TXT_ESTADO="SP"/>
+    <TB_TELEFONE ID_USUARIO="15" TXT_NUM_TELEFONE="11976543210"/>
+    <TB_CLIENTE ID_USUARIO="15"/>
+
+    <TB_USUARIO TXT_CPF="051.015.086-16" TXT_LOGIN="cliente12" TXT_NOME="Juliana Santos" 
+                TXT_EMAIL="juliana.santos@email.com" TXT_SENHA="juli456" DISC_USUARIO="Cliente"
+                END_TXT_LOGRADOURO="Av. Paulista" END_TXT_BAIRRO="Bela Vista" END_NUMERO="1500"
+                END_TXT_COMPLEMENTO="Sala 1001" END_TXT_CEP="01310-100"
+                END_TXT_CIDADE="São Paulo" END_TXT_ESTADO="SP"/>
+    <TB_TELEFONE ID_USUARIO="16" TXT_NUM_TELEFONE="11987654321"/>
+    <TB_CLIENTE ID_USUARIO="16"/>
+
+    <TB_USUARIO TXT_CPF="503.040.273-08" TXT_LOGIN="cliente13" TXT_NOME="Roberto Silva" 
+                TXT_EMAIL="roberto.silva@email.com" TXT_SENHA="rob789" DISC_USUARIO="Cliente"
+                END_TXT_LOGRADOURO="Rua Oscar Freire" END_TXT_BAIRRO="Jardins" END_NUMERO="800"
+                END_TXT_COMPLEMENTO="Loja 3" END_TXT_CEP="01426-001"
+                END_TXT_CIDADE="São Paulo" END_TXT_ESTADO="SP"/>
+    <TB_TELEFONE ID_USUARIO="17" TXT_NUM_TELEFONE="11998765432"/>
+    <TB_CLIENTE ID_USUARIO="17"/>
+</dataset>
