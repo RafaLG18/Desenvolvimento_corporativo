@@ -44,16 +44,20 @@ public class PedidoTests extends GenericTest{
     }
     
     @Test
-    public void UltimoPedido(){
-        logger.info("Executando UltimoPedido()");
+    public void ComparacaoPedidos(){
+        logger.info("Executando ComparacaoPedidos()");
         Query query = em.createQuery(
                 "SELECT MAX(p.data), MIN(p.data) FROM Pedido p");
         Object[] resultado = (Object[]) query.getSingleResult();
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy");
         String maiorData = dateFormat.format((Date) resultado[0]);
         String menorData = dateFormat.format((Date) resultado[1]);
-        assertEquals("21-12-1999", maiorData);
-        assertEquals("11-08-1973", menorData);
+        assertEquals("05-12-2025", maiorData);
+        assertEquals("12-08-2025", menorData);
     }
+    
+
+    
+    
 
 }

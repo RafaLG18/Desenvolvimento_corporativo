@@ -118,4 +118,35 @@ public class ClienteTests extends GenericTest{
       
         assertEquals(4, clientes.size());
     }
+    
+    @Test
+    public void ImagensMemberOfCliente(){
+        Imagem imagem = em.find(Imagem.class, Long.valueOf(3));
+        TypedQuery<Cliente> query;
+        query = em.createQuery(
+                "SELECT c FROM Cliente c WHERE :imagem MEMBER OF c.imagens",
+                Cliente.class);
+        query.setParameter("imagem", imagem);
+        Cliente cliente = query.getSingleResult();
+        assertEquals(Long.valueOf("2"), cliente.getId());
+    }
+    
+    @Test
+    public void ClientesDeSPERJ(){
+        TypedQuery<Cliente> query;
+        query = em.createQuery(
+                "SELECT c FROM Cliente c WHERE c.endereco.estado IN ('SP','RJ')",
+                Cliente.class);
+        List<Cliente> clientes = query.getResultList();
+        assertEquals(11, clientes.size());
+    }
+    @Test
+    public void ClientesDeSPOuRJ(){
+        TypedQuery<Cliente> query;
+        query = em.createQuery(
+                "SELECT c FROM Cliente c WHERE c.endereco.estado ='SP' OR c.endereco.estado ='RJ'",
+                Cliente.class);
+        List<Cliente> clientes = query.getResultList();
+        assertEquals(11, clientes.size());
+    }
 }

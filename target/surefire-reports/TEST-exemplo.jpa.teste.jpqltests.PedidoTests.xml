@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="exemplo.jpa.teste.jpqltests.PedidoTests" time="0.836" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="exemplo.jpa.teste.jpqltests.PedidoTests" time="1.547" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -7,14 +7,14 @@
     <property name="java.vm.vendor" value="Azul Systems, Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://www.azul.com/"/>
-    <property name="user.timezone" value="America/Recife"/>
     <property name="os.name" value="Linux"/>
     <property name="java.vm.specification.version" value="24"/>
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/apache-netbeans/jdk/lib"/>
-    <property name="sun.java.command" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/surefire/surefirebooter-20250808194913161_3.jar /home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/surefire 2025-08-08T19-49-13_068-jvmRun1 surefire-20250808194913161_1tmp surefire_0-20250808194913161_2tmp"/>
+    <property name="sun.java.command" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/surefire/surefirebooter-20250808211829610_3.jar /home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/surefire 2025-08-08T21-18-29_535-jvmRun1 surefire-20250808211829610_1tmp surefire_0-20250808211829610_2tmp"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="exemplo.jpa.teste.jpqltests.PedidoTests"/>
     <property name="surefire.test.class.path" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/test-classes:/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/classes:/home/rafael/.m2/repository/org/eclipse/persistence/eclipselink/4.0.4/eclipselink-4.0.4.jar:/home/rafael/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/rafael/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/home/rafael/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.5/jaxb-xjc-4.0.5.jar:/home/rafael/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/home/rafael/.m2/repository/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/home/rafael/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa/4.0.4/org.eclipse.persistence.jpa-4.0.4.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/9.7.0/org.eclipse.persistence.asm-9.7.0.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/4.0.4/org.eclipse.persistence.core-4.0.4.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/4.0.4/org.eclipse.persistence.jpa.jpql-4.0.4.jar:/home/rafael/.m2/repository/org/apache/derby/derbyclient/10.16.1.1/derbyclient-10.16.1.1.jar:/home/rafael/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyshared-10.16.1.1.jar:/home/rafael/.m2/repository/org/apache/derby/derbytools/10.16.1.1/derbytools-10.16.1.1.jar:/home/rafael/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/rafael/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rafael/.m2/repository/org/dbunit/dbunit/2.8.0/dbunit-2.8.0.jar:/home/rafael/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/rafael/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/home/rafael/.m2/repository/org/postgresql/postgresql/42.3.1/postgresql-42.3.1.jar:/home/rafael/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/rafael/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.3.0.0/ojdbc8-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/jdbc/ucp/19.3.0.0/ucp-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/oraclepki/19.3.0.0/oraclepki-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/osdt_cert/19.3.0.0/osdt_cert-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/osdt_core/19.3.0.0/osdt_core-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/ha/simplefan/19.3.0.0/simplefan-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/ha/ons/19.3.0.0/ons-19.3.0.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/rafael"/>
@@ -26,9 +26,9 @@
     <property name="basedir" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/surefire/surefirebooter-20250808194913161_3.jar"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/surefire/surefirebooter-20250808211829610_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9"/>
     <property name="user.name" value="rafael"/>
@@ -56,87 +56,98 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="PedidosComPix" classname="exemplo.jpa.teste.jpqltests.PedidoTests" time="0.009">
-    <system-out><![CDATA[[EL Fine]: moxy: 2025-08-08 19:49:16.44--Thread(Thread[#3,main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@189b5fb1
-[EL Fine]: server: 2025-08-08 19:49:16.442--Thread(Thread[#3,main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
-[EL Config]: metadata: 2025-08-08 19:49:16.454--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Usuario] is set to [FIELD].
-[EL Config]: metadata: 2025-08-08 19:49:16.457--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The target class (reference) class for the element collection mapping element [field telefones] is being defaulted to: class java.lang.String.
-[EL Config]: metadata: 2025-08-08 19:49:16.458--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Cliente] is set to [FIELD].
-[EL Config]: metadata: 2025-08-08 19:49:16.458--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the one to many mapping element [field imagens] is being defaulted to: class exemplo.jpa.Imagem.
-[EL Config]: metadata: 2025-08-08 19:49:16.459--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the one to one mapping element [field pedido] is being defaulted to: class exemplo.jpa.Pedido.
-[EL Config]: metadata: 2025-08-08 19:49:16.459--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Imagem] is set to [FIELD].
-[EL Config]: metadata: 2025-08-08 19:49:16.459--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the many to one mapping element [field cliente] is being defaulted to: class exemplo.jpa.Cliente.
-[EL Config]: metadata: 2025-08-08 19:49:16.46--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Fornecedor] is set to [FIELD].
-[EL Config]: metadata: 2025-08-08 19:49:16.46--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the many to many mapping element [field servicos] is being defaulted to: class exemplo.jpa.Servico.
-[EL Config]: metadata: 2025-08-08 19:49:16.46--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Pedido] is set to [FIELD].
-[EL Config]: metadata: 2025-08-08 19:49:16.46--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the one to one mapping element [field cliente] is being defaulted to: class exemplo.jpa.Cliente.
-[EL Config]: metadata: 2025-08-08 19:49:16.461--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Servico] is set to [FIELD].
-[EL Config]: metadata: 2025-08-08 19:49:16.461--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the many to many mapping element [field fornecedores] is being defaulted to: class exemplo.jpa.Fornecedor.
-[EL Config]: metadata: 2025-08-08 19:49:16.461--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Endereco] is set to [FIELD].
-[EL Config]: metadata: 2025-08-08 19:49:16.463--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Cliente] is being defaulted to: Cliente.
-[EL Config]: metadata: 2025-08-08 19:49:16.463--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Usuario] is being defaulted to: Usuario.
-[EL Config]: metadata: 2025-08-08 19:49:16.465--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Imagem] is being defaulted to: Imagem.
-[EL Config]: metadata: 2025-08-08 19:49:16.465--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Fornecedor] is being defaulted to: Fornecedor.
-[EL Config]: metadata: 2025-08-08 19:49:16.465--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Pedido] is being defaulted to: Pedido.
-[EL Config]: metadata: 2025-08-08 19:49:16.466--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Servico] is being defaulted to: Servico.
-[EL Config]: metadata: 2025-08-08 19:49:16.466--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The primary key column name for the mapping element [field telefones] is being defaulted to: ID.
-[EL Config]: metadata: 2025-08-08 19:49:16.467--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The primary key column name for the mapping element [field cliente] is being defaulted to: ID.
-[EL Config]: metadata: 2025-08-08 19:49:16.467--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The source primary key column name for the many to many mapping [field servicos] is being defaulted to: ID.
-[EL Config]: metadata: 2025-08-08 19:49:16.468--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--The target primary key column name for the many to many mapping [field servicos] is being defaulted to: ID.
-[EL Info]: 2025-08-08 19:49:16.471--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--EclipseLink, version: Eclipse Persistence Services - 4.0.4.v202407190748-059428cdd2583c46f1f3e50d235854840a6fa9a7
-[EL Fine]: connection: 2025-08-08 19:49:16.471--ServerSession(2017380745)--Connection(1753259207)--Thread(Thread[#3,main,5,main])--connecting(DatabaseLogin(
+  <testcase name="PedidosComPix" classname="exemplo.jpa.teste.jpqltests.PedidoTests" time="0.036">
+    <system-out><![CDATA[[EL Fine]: server: 2025-08-08 21:18:30.047--Thread(Thread[#3,main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Warning]: 2025-08-08 21:18:30.071--Thread(Thread[#3,main,5,main])--Java SE '24' is not fully supported yet. Report this error to the EclipseLink open source project. (There is no English translation for this message.)
+[EL Fine]: 2025-08-08 21:18:30.072--Thread(Thread[#3,main,5,main])--Generating bytecode for Java SE '23'. (There is no English translation for this message.)
+[EL Config]: metadata: 2025-08-08 21:18:30.132--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Usuario] is set to [FIELD].
+[EL Config]: metadata: 2025-08-08 21:18:30.146--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The target class (reference) class for the element collection mapping element [field telefones] is being defaulted to: class java.lang.String.
+[EL Config]: metadata: 2025-08-08 21:18:30.147--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Cliente] is set to [FIELD].
+[EL Config]: metadata: 2025-08-08 21:18:30.15--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the one to many mapping element [field imagens] is being defaulted to: class exemplo.jpa.Imagem.
+[EL Config]: metadata: 2025-08-08 21:18:30.151--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the one to one mapping element [field pedido] is being defaulted to: class exemplo.jpa.Pedido.
+[EL Config]: metadata: 2025-08-08 21:18:30.151--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Imagem] is set to [FIELD].
+[EL Config]: metadata: 2025-08-08 21:18:30.152--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the many to one mapping element [field cliente] is being defaulted to: class exemplo.jpa.Cliente.
+[EL Config]: metadata: 2025-08-08 21:18:30.153--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Fornecedor] is set to [FIELD].
+[EL Config]: metadata: 2025-08-08 21:18:30.153--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the many to many mapping element [field servicos] is being defaulted to: class exemplo.jpa.Servico.
+[EL Config]: metadata: 2025-08-08 21:18:30.153--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Pedido] is set to [FIELD].
+[EL Config]: metadata: 2025-08-08 21:18:30.154--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the one to one mapping element [field cliente] is being defaulted to: class exemplo.jpa.Cliente.
+[EL Config]: metadata: 2025-08-08 21:18:30.154--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Servico] is set to [FIELD].
+[EL Config]: metadata: 2025-08-08 21:18:30.155--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the many to many mapping element [field fornecedores] is being defaulted to: class exemplo.jpa.Fornecedor.
+[EL Config]: metadata: 2025-08-08 21:18:30.155--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Endereco] is set to [FIELD].
+[EL Config]: metadata: 2025-08-08 21:18:30.157--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Cliente] is being defaulted to: Cliente.
+[EL Config]: metadata: 2025-08-08 21:18:30.157--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Usuario] is being defaulted to: Usuario.
+[EL Config]: metadata: 2025-08-08 21:18:30.166--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Imagem] is being defaulted to: Imagem.
+[EL Config]: metadata: 2025-08-08 21:18:30.167--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Fornecedor] is being defaulted to: Fornecedor.
+[EL Config]: metadata: 2025-08-08 21:18:30.168--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Pedido] is being defaulted to: Pedido.
+[EL Config]: metadata: 2025-08-08 21:18:30.169--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Servico] is being defaulted to: Servico.
+[EL Config]: metadata: 2025-08-08 21:18:30.177--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The primary key column name for the mapping element [field telefones] is being defaulted to: ID.
+[EL Config]: metadata: 2025-08-08 21:18:30.181--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The primary key column name for the mapping element [field cliente] is being defaulted to: ID.
+[EL Config]: metadata: 2025-08-08 21:18:30.183--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The source primary key column name for the many to many mapping [field servicos] is being defaulted to: ID.
+[EL Config]: metadata: 2025-08-08 21:18:30.183--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--The target primary key column name for the many to many mapping [field servicos] is being defaulted to: ID.
+[EL Info]: 2025-08-08 21:18:30.308--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--EclipseLink, version: Eclipse Persistence Services - 4.0.4.v202407190748-059428cdd2583c46f1f3e50d235854840a6fa9a7
+[EL Fine]: connection: 2025-08-08 21:18:30.311--ServerSession(262457445)--Connection(1768242710)--Thread(Thread[#3,main,5,main])--connecting(DatabaseLogin(
 	platform=>DerbyPlatform
 	user name=> "app"
 	datasource URL=> "jdbc:derby://localhost:1527/projeto-semestre;create=true"
 ))
-[EL Config]: connection: 2025-08-08 19:49:16.475--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--Connected: jdbc:derby://localhost:1527/projeto-semestre;create=true
+[EL Config]: connection: 2025-08-08 21:18:30.511--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--Connected: jdbc:derby://localhost:1527/projeto-semestre;create=true
 	User: app
 	Database: Apache Derby  Version: 10.17.1.0 - (1913217)
 	Driver: Apache Derby Network Client JDBC Driver  Version: 10.16.1.1 - (1901046)
-[EL Warning]: metadata: 2025-08-08 19:49:16.476--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [pedido] for the entity class [class exemplo.jpa.Cliente] since weaving was not enabled or did not occur.
-[EL Fine]: connection: 2025-08-08 19:49:16.48--ServerSession(2017380745)--Thread(Thread[#3,main,5,main])--/file:/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/classes/_projeto-semestre login successful
-[EL Fine]: sql: 2025-08-08 19:49:16.482--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE DROP CONSTRAINT TBCLIENTEIDUSUARIO
-[EL Fine]: sql: 2025-08-08 19:49:16.495--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE DROP CONSTRAINT TBCLIENTEID_PEDIDO
-[EL Fine]: sql: 2025-08-08 19:49:16.506--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_IMAGEM DROP CONSTRAINT TBIMAGEMID_USUARIO
-[EL Fine]: sql: 2025-08-08 19:49:16.515--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_FORNECEDOR DROP CONSTRAINT TBFRNECEDORDSUARIO
-[EL Fine]: sql: 2025-08-08 19:49:16.52--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO DROP CONSTRAINT TBSRIOSERVICODSRIO
-[EL Fine]: sql: 2025-08-08 19:49:16.528--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO DROP CONSTRAINT TBSROSERVICODSRVCO
-[EL Fine]: sql: 2025-08-08 19:49:16.541--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_TELEFONE DROP CONSTRAINT TBTELEFONEDUSUARIO
-[EL Fine]: sql: 2025-08-08 19:49:16.551--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_USUARIO
-[EL Fine]: sql: 2025-08-08 19:49:16.578--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_CLIENTE
-[EL Fine]: sql: 2025-08-08 19:49:16.596--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_IMAGEM
-[EL Fine]: sql: 2025-08-08 19:49:16.612--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_FORNECEDOR
-[EL Fine]: sql: 2025-08-08 19:49:16.628--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_PEDIDO
-[EL Fine]: sql: 2025-08-08 19:49:16.642--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_SERVICO
-[EL Fine]: sql: 2025-08-08 19:49:16.659--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_USUARIO_SERVICO
-[EL Fine]: sql: 2025-08-08 19:49:16.674--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_TELEFONE
-[EL Fine]: sql: 2025-08-08 19:49:16.685--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_USUARIO (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, DISC_USUARIO VARCHAR(10), TXT_CPF VARCHAR(14) NOT NULL UNIQUE, TXT_EMAIL VARCHAR(50) NOT NULL, TXT_LOGIN VARCHAR(50) NOT NULL UNIQUE, TXT_NOME VARCHAR(255) NOT NULL, TXT_SENHA VARCHAR(20) NOT NULL, END_TXT_BAIRRO VARCHAR(150) NOT NULL, END_TXT_CEP VARCHAR(20) NOT NULL, END_TXT_CIDADE VARCHAR(50) NOT NULL, END_TXT_COMPLEMENTO VARCHAR(30), END_TXT_ESTADO VARCHAR(50) NOT NULL, END_TXT_LOGRADOURO VARCHAR(150) NOT NULL, END_NUMERO INTEGER NOT NULL, PRIMARY KEY (ID))
-[EL Fine]: sql: 2025-08-08 19:49:16.722--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_CLIENTE (ID_USUARIO BIGINT NOT NULL, ID_PEDIDO BIGINT, PRIMARY KEY (ID_USUARIO))
-[EL Fine]: sql: 2025-08-08 19:49:16.74--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_IMAGEM (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, BYTE_IMAGE BLOB(2147483647) NOT NULL, ID_USUARIO BIGINT, PRIMARY KEY (ID))
-[EL Fine]: sql: 2025-08-08 19:49:16.758--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_FORNECEDOR (ID_USUARIO BIGINT NOT NULL, PRIMARY KEY (ID_USUARIO))
-[EL Fine]: sql: 2025-08-08 19:49:16.777--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_PEDIDO (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, DT_PEDIDO DATE NOT NULL, TXT_TIPO_PAGAMENTO VARCHAR(20) NOT NULL, PRIMARY KEY (ID))
-[EL Fine]: sql: 2025-08-08 19:49:16.8--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_SERVICO (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, TXT_NOME VARCHAR(50) NOT NULL, TXT_PRECO FLOAT NOT NULL, TXT_TIPO VARCHAR(50) NOT NULL, PRIMARY KEY (ID))
-[EL Fine]: sql: 2025-08-08 19:49:16.82--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_USUARIO_SERVICO (ID_USUARIO BIGINT NOT NULL, ID_SERVICO BIGINT NOT NULL, PRIMARY KEY (ID_USUARIO, ID_SERVICO))
-[EL Fine]: sql: 2025-08-08 19:49:16.848--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_TELEFONE (ID_USUARIO BIGINT NOT NULL, TXT_NUM_TELEFONE VARCHAR(20) NOT NULL)
-[EL Fine]: sql: 2025-08-08 19:49:16.857--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE ADD CONSTRAINT TBCLIENTEIDUSUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
-[EL Fine]: sql: 2025-08-08 19:49:16.864--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE ADD CONSTRAINT TBCLIENTEID_PEDIDO FOREIGN KEY (ID_PEDIDO) REFERENCES TB_PEDIDO (ID)
-[EL Fine]: sql: 2025-08-08 19:49:16.877--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_IMAGEM ADD CONSTRAINT TBIMAGEMID_USUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
-[EL Fine]: sql: 2025-08-08 19:49:16.89--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_FORNECEDOR ADD CONSTRAINT TBFRNECEDORDSUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
-[EL Fine]: sql: 2025-08-08 19:49:16.896--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO ADD CONSTRAINT TBSRIOSERVICODSRIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
-[EL Fine]: sql: 2025-08-08 19:49:16.908--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO ADD CONSTRAINT TBSROSERVICODSRVCO FOREIGN KEY (ID_SERVICO) REFERENCES TB_SERVICO (ID)
-[EL Fine]: sql: 2025-08-08 19:49:16.921--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_TELEFONE ADD CONSTRAINT TBTELEFONEDUSUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
-[EL Fine]: sql: 2025-08-08 19:49:17.277--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--SELECT COUNT(ID) FROM TB_PEDIDO WHERE TXT_TIPO_PAGAMENTO LIKE ?
+[EL Warning]: metadata: 2025-08-08 21:18:30.517--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [pedido] for the entity class [class exemplo.jpa.Cliente] since weaving was not enabled or did not occur.
+[EL Fine]: connection: 2025-08-08 21:18:30.57--ServerSession(262457445)--Thread(Thread[#3,main,5,main])--/file:/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/classes/_projeto-semestre login successful
+[EL Fine]: sql: 2025-08-08 21:18:30.584--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE DROP CONSTRAINT TBCLIENTEIDUSUARIO
+[EL Fine]: sql: 2025-08-08 21:18:30.598--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE DROP CONSTRAINT TBCLIENTEID_PEDIDO
+[EL Fine]: sql: 2025-08-08 21:18:30.606--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_IMAGEM DROP CONSTRAINT TBIMAGEMID_USUARIO
+[EL Fine]: sql: 2025-08-08 21:18:30.62--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_FORNECEDOR DROP CONSTRAINT TBFRNECEDORDSUARIO
+[EL Fine]: sql: 2025-08-08 21:18:30.624--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO DROP CONSTRAINT TBSRIOSERVICODSRIO
+[EL Fine]: sql: 2025-08-08 21:18:30.636--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO DROP CONSTRAINT TBSROSERVICODSRVCO
+[EL Fine]: sql: 2025-08-08 21:18:30.645--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_TELEFONE DROP CONSTRAINT TBTELEFONEDUSUARIO
+[EL Fine]: sql: 2025-08-08 21:18:30.655--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_USUARIO
+[EL Fine]: sql: 2025-08-08 21:18:30.685--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_CLIENTE
+[EL Fine]: sql: 2025-08-08 21:18:30.699--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_IMAGEM
+[EL Fine]: sql: 2025-08-08 21:18:30.713--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_FORNECEDOR
+[EL Fine]: sql: 2025-08-08 21:18:30.734--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_PEDIDO
+[EL Fine]: sql: 2025-08-08 21:18:30.753--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_SERVICO
+[EL Fine]: sql: 2025-08-08 21:18:30.768--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_USUARIO_SERVICO
+[EL Fine]: sql: 2025-08-08 21:18:30.782--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_TELEFONE
+[EL Fine]: sql: 2025-08-08 21:18:30.8--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_USUARIO (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, DISC_USUARIO VARCHAR(10), TXT_CPF VARCHAR(14) NOT NULL UNIQUE, TXT_EMAIL VARCHAR(50) NOT NULL, TXT_LOGIN VARCHAR(50) NOT NULL UNIQUE, TXT_NOME VARCHAR(255) NOT NULL, TXT_SENHA VARCHAR(20) NOT NULL, END_TXT_BAIRRO VARCHAR(150) NOT NULL, END_TXT_CEP VARCHAR(20) NOT NULL, END_TXT_CIDADE VARCHAR(50) NOT NULL, END_TXT_COMPLEMENTO VARCHAR(30), END_TXT_ESTADO VARCHAR(50) NOT NULL, END_TXT_LOGRADOURO VARCHAR(150) NOT NULL, END_NUMERO INTEGER NOT NULL, PRIMARY KEY (ID))
+[EL Fine]: sql: 2025-08-08 21:18:30.832--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_CLIENTE (ID_USUARIO BIGINT NOT NULL, ID_PEDIDO BIGINT, PRIMARY KEY (ID_USUARIO))
+[EL Fine]: sql: 2025-08-08 21:18:30.866--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_IMAGEM (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, BYTE_IMAGE BLOB(2147483647) NOT NULL, ID_USUARIO BIGINT, PRIMARY KEY (ID))
+[EL Fine]: sql: 2025-08-08 21:18:30.886--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_FORNECEDOR (ID_USUARIO BIGINT NOT NULL, PRIMARY KEY (ID_USUARIO))
+[EL Fine]: sql: 2025-08-08 21:18:30.901--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_PEDIDO (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, DT_PEDIDO DATE NOT NULL, TXT_TIPO_PAGAMENTO VARCHAR(20) NOT NULL, PRIMARY KEY (ID))
+[EL Fine]: sql: 2025-08-08 21:18:30.917--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_SERVICO (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, TXT_NOME VARCHAR(50) NOT NULL, TXT_PRECO FLOAT NOT NULL, TXT_TIPO VARCHAR(50) NOT NULL, PRIMARY KEY (ID))
+[EL Fine]: sql: 2025-08-08 21:18:30.933--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_USUARIO_SERVICO (ID_USUARIO BIGINT NOT NULL, ID_SERVICO BIGINT NOT NULL, PRIMARY KEY (ID_USUARIO, ID_SERVICO))
+[EL Fine]: sql: 2025-08-08 21:18:30.951--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_TELEFONE (ID_USUARIO BIGINT NOT NULL, TXT_NUM_TELEFONE VARCHAR(20) NOT NULL)
+[EL Fine]: sql: 2025-08-08 21:18:30.963--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE ADD CONSTRAINT TBCLIENTEIDUSUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
+[EL Fine]: sql: 2025-08-08 21:18:30.969--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE ADD CONSTRAINT TBCLIENTEID_PEDIDO FOREIGN KEY (ID_PEDIDO) REFERENCES TB_PEDIDO (ID)
+[EL Fine]: sql: 2025-08-08 21:18:30.985--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_IMAGEM ADD CONSTRAINT TBIMAGEMID_USUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
+[EL Fine]: sql: 2025-08-08 21:18:30.997--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_FORNECEDOR ADD CONSTRAINT TBFRNECEDORDSUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
+[EL Fine]: sql: 2025-08-08 21:18:31.002--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO ADD CONSTRAINT TBSRIOSERVICODSRIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
+[EL Fine]: sql: 2025-08-08 21:18:31.012--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO ADD CONSTRAINT TBSROSERVICODSRVCO FOREIGN KEY (ID_SERVICO) REFERENCES TB_SERVICO (ID)
+[EL Fine]: sql: 2025-08-08 21:18:31.024--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_TELEFONE ADD CONSTRAINT TBTELEFONEDUSUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
+[EL Fine]: sql: 2025-08-08 21:18:31.351--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--SELECT COUNT(ID) FROM TB_PEDIDO WHERE TXT_TIPO_PAGAMENTO LIKE ?
 	bind => [PIX]
 ]]></system-out>
-    <system-err><![CDATA[ago. 08, 2025 7:49:17 PM exemplo.jpa.teste.jpqltests.PedidoTests PedidosComPix
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ago. 08, 2025 9:18:31 PM exemplo.jpa.teste.jpqltests.PedidoTests PedidosComPix
 INFORMAÇÕES: Executando PedidosComPix()
 ]]></system-err>
   </testcase>
-  <testcase name="PedidosComCartao" classname="exemplo.jpa.teste.jpqltests.PedidoTests" time="0.003">
-    <system-out><![CDATA[[EL Fine]: sql: 2025-08-08 19:49:17.285--ServerSession(2017380745)--Connection(1883237069)--Thread(Thread[#3,main,5,main])--SELECT COUNT(ID) FROM TB_PEDIDO WHERE TXT_TIPO_PAGAMENTO LIKE ?
+  <testcase name="ComparacaoPedidos" classname="exemplo.jpa.teste.jpqltests.PedidoTests" time="0.002">
+    <system-out><![CDATA[[EL Fine]: sql: 2025-08-08 21:18:31.361--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--SELECT MAX(DT_PEDIDO), MIN(DT_PEDIDO) FROM TB_PEDIDO
+]]></system-out>
+    <system-err><![CDATA[ago. 08, 2025 9:18:31 PM exemplo.jpa.teste.jpqltests.PedidoTests ComparacaoPedidos
+INFORMAÇÕES: Executando ComparacaoPedidos()
+]]></system-err>
+  </testcase>
+  <testcase name="PedidosComCartao" classname="exemplo.jpa.teste.jpqltests.PedidoTests" time="0.0">
+    <system-out><![CDATA[[EL Fine]: sql: 2025-08-08 21:18:31.37--ServerSession(262457445)--Connection(479734028)--Thread(Thread[#3,main,5,main])--SELECT COUNT(ID) FROM TB_PEDIDO WHERE TXT_TIPO_PAGAMENTO LIKE ?
 	bind => [CARTAO]
 ]]></system-out>
-    <system-err><![CDATA[ago. 08, 2025 7:49:17 PM exemplo.jpa.teste.jpqltests.PedidoTests PedidosComCartao
+    <system-err><![CDATA[ago. 08, 2025 9:18:31 PM exemplo.jpa.teste.jpqltests.PedidoTests PedidosComCartao
 INFORMAÇÕES: Executando PedidosComCartao()
 ]]></system-err>
   </testcase>
