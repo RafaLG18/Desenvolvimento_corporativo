@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="exemplo.jpa.teste.jpqltests.ClienteTests" time="1.56" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="exemplo.jpa.teste.jpqltests.ClienteTests" time="1.456" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/test-classes:/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/classes:/home/rafael/.m2/repository/org/eclipse/persistence/eclipselink/4.0.4/eclipselink-4.0.4.jar:/home/rafael/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/rafael/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/home/rafael/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.5/jaxb-xjc-4.0.5.jar:/home/rafael/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/home/rafael/.m2/repository/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/home/rafael/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa/4.0.4/org.eclipse.persistence.jpa-4.0.4.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/9.7.0/org.eclipse.persistence.asm-9.7.0.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/4.0.4/org.eclipse.persistence.core-4.0.4.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/4.0.4/org.eclipse.persistence.jpa.jpql-4.0.4.jar:/home/rafael/.m2/repository/org/apache/derby/derbyclient/10.16.1.1/derbyclient-10.16.1.1.jar:/home/rafael/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyshared-10.16.1.1.jar:/home/rafael/.m2/repository/org/apache/derby/derbytools/10.16.1.1/derbytools-10.16.1.1.jar:/home/rafael/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/rafael/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rafael/.m2/repository/org/dbunit/dbunit/2.8.0/dbunit-2.8.0.jar:/home/rafael/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/rafael/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/home/rafael/.m2/repository/org/postgresql/postgresql/42.3.1/postgresql-42.3.1.jar:/home/rafael/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/rafael/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.3.0.0/ojdbc8-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/jdbc/ucp/19.3.0.0/ucp-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/oraclepki/19.3.0.0/oraclepki-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/osdt_cert/19.3.0.0/osdt_cert-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/osdt_core/19.3.0.0/osdt_core-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/ha/simplefan/19.3.0.0/simplefan-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/ha/ons/19.3.0.0/ons-19.3.0.0.jar:"/>
+    <property name="java.class.path" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/test-classes:/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/classes:/home/rafael/.m2/repository/org/eclipse/persistence/eclipselink/4.0.4/eclipselink-4.0.4.jar:/home/rafael/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/rafael/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/home/rafael/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.5/jaxb-xjc-4.0.5.jar:/home/rafael/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/home/rafael/.m2/repository/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/home/rafael/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa/4.0.4/org.eclipse.persistence.jpa-4.0.4.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/9.7.0/org.eclipse.persistence.asm-9.7.0.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/4.0.4/org.eclipse.persistence.core-4.0.4.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/4.0.4/org.eclipse.persistence.jpa.jpql-4.0.4.jar:/home/rafael/.m2/repository/org/apache/derby/derbyclient/10.16.1.1/derbyclient-10.16.1.1.jar:/home/rafael/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyshared-10.16.1.1.jar:/home/rafael/.m2/repository/org/apache/derby/derbytools/10.16.1.1/derbytools-10.16.1.1.jar:/home/rafael/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/rafael/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rafael/.m2/repository/org/dbunit/dbunit/2.8.0/dbunit-2.8.0.jar:/home/rafael/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/rafael/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/home/rafael/.m2/repository/org/postgresql/postgresql/42.3.1/postgresql-42.3.1.jar:/home/rafael/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/rafael/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.3.0.0/ojdbc8-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/jdbc/ucp/19.3.0.0/ucp-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/oraclepki/19.3.0.0/oraclepki-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/osdt_cert/19.3.0.0/osdt_cert-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/osdt_core/19.3.0.0/osdt_core-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/ha/simplefan/19.3.0.0/simplefan-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/ha/ons/19.3.0.0/ons-19.3.0.0.jar:/home/rafael/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar:/home/rafael/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar:/home/rafael/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar:/home/rafael/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/rafael/.m2/repository/org/glassfish/expressly/expressly/5.0.0/expressly-5.0.0.jar:/home/rafael/.m2/repository/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.jar:"/>
     <property name="java.vm.vendor" value="Azul Systems, Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="America/Recife"/>
     <property name="os.name" value="Linux"/>
     <property name="java.vm.specification.version" value="24"/>
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/apache-netbeans/jdk/lib"/>
-    <property name="sun.java.command" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/surefire/surefirebooter-20250808213040891_3.jar /home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/surefire 2025-08-08T21-30-40_811-jvmRun1 surefire-20250808213040891_1tmp surefire_0-20250808213040891_2tmp"/>
+    <property name="sun.java.command" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/surefire/surefirebooter-20250813231951077_3.jar /home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/surefire 2025-08-13T23-19-50_916-jvmRun1 surefire-20250813231951077_1tmp surefire_0-20250813231951077_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="exemplo.jpa.teste.jpqltests.ClienteTests#ClientesDeSPOuRJ"/>
-    <property name="surefire.test.class.path" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/test-classes:/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/classes:/home/rafael/.m2/repository/org/eclipse/persistence/eclipselink/4.0.4/eclipselink-4.0.4.jar:/home/rafael/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/rafael/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/home/rafael/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.5/jaxb-xjc-4.0.5.jar:/home/rafael/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/home/rafael/.m2/repository/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/home/rafael/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa/4.0.4/org.eclipse.persistence.jpa-4.0.4.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/9.7.0/org.eclipse.persistence.asm-9.7.0.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/4.0.4/org.eclipse.persistence.core-4.0.4.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/4.0.4/org.eclipse.persistence.jpa.jpql-4.0.4.jar:/home/rafael/.m2/repository/org/apache/derby/derbyclient/10.16.1.1/derbyclient-10.16.1.1.jar:/home/rafael/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyshared-10.16.1.1.jar:/home/rafael/.m2/repository/org/apache/derby/derbytools/10.16.1.1/derbytools-10.16.1.1.jar:/home/rafael/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/rafael/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rafael/.m2/repository/org/dbunit/dbunit/2.8.0/dbunit-2.8.0.jar:/home/rafael/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/rafael/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/home/rafael/.m2/repository/org/postgresql/postgresql/42.3.1/postgresql-42.3.1.jar:/home/rafael/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/rafael/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.3.0.0/ojdbc8-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/jdbc/ucp/19.3.0.0/ucp-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/oraclepki/19.3.0.0/oraclepki-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/osdt_cert/19.3.0.0/osdt_cert-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/osdt_core/19.3.0.0/osdt_core-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/ha/simplefan/19.3.0.0/simplefan-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/ha/ons/19.3.0.0/ons-19.3.0.0.jar:"/>
+    <property name="surefire.test.class.path" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/test-classes:/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/classes:/home/rafael/.m2/repository/org/eclipse/persistence/eclipselink/4.0.4/eclipselink-4.0.4.jar:/home/rafael/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/rafael/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/home/rafael/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.5/jaxb-xjc-4.0.5.jar:/home/rafael/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/home/rafael/.m2/repository/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/home/rafael/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa/4.0.4/org.eclipse.persistence.jpa-4.0.4.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.asm/9.7.0/org.eclipse.persistence.asm-9.7.0.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.core/4.0.4/org.eclipse.persistence.core-4.0.4.jar:/home/rafael/.m2/repository/org/eclipse/persistence/org.eclipse.persistence.jpa.jpql/4.0.4/org.eclipse.persistence.jpa.jpql-4.0.4.jar:/home/rafael/.m2/repository/org/apache/derby/derbyclient/10.16.1.1/derbyclient-10.16.1.1.jar:/home/rafael/.m2/repository/org/apache/derby/derbyshared/10.16.1.1/derbyshared-10.16.1.1.jar:/home/rafael/.m2/repository/org/apache/derby/derbytools/10.16.1.1/derbytools-10.16.1.1.jar:/home/rafael/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/rafael/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rafael/.m2/repository/org/dbunit/dbunit/2.8.0/dbunit-2.8.0.jar:/home/rafael/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/rafael/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/home/rafael/.m2/repository/org/postgresql/postgresql/42.3.1/postgresql-42.3.1.jar:/home/rafael/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/rafael/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.3.0.0/ojdbc8-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/jdbc/ucp/19.3.0.0/ucp-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/oraclepki/19.3.0.0/oraclepki-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/osdt_cert/19.3.0.0/osdt_cert-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/security/osdt_core/19.3.0.0/osdt_core-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/ha/simplefan/19.3.0.0/simplefan-19.3.0.0.jar:/home/rafael/.m2/repository/com/oracle/database/ha/ons/19.3.0.0/ons-19.3.0.0.jar:/home/rafael/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar:/home/rafael/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar:/home/rafael/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar:/home/rafael/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/rafael/.m2/repository/org/glassfish/expressly/expressly/5.0.0/expressly-5.0.0.jar:/home/rafael/.m2/repository/jakarta/el/jakarta.el-api/5.0.0/jakarta.el-api-5.0.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/rafael"/>
     <property name="user.language" value="pt"/>
@@ -26,9 +26,9 @@
     <property name="basedir" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/surefire/surefirebooter-20250808213040891_3.jar"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/surefire/surefirebooter-20250813231951077_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9"/>
     <property name="user.name" value="rafael"/>
@@ -56,110 +56,289 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="ClientesDeSPOuRJ" classname="exemplo.jpa.teste.jpqltests.ClienteTests" time="0.066">
-    <system-out><![CDATA[[EL Fine]: server: 2025-08-08 21:30:41.33--Thread(Thread[#3,main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
-[EL Warning]: 2025-08-08 21:30:41.354--Thread(Thread[#3,main,5,main])--Java SE '24' is not fully supported yet. Report this error to the EclipseLink open source project. (There is no English translation for this message.)
-[EL Fine]: 2025-08-08 21:30:41.354--Thread(Thread[#3,main,5,main])--Generating bytecode for Java SE '23'. (There is no English translation for this message.)
-[EL Config]: metadata: 2025-08-08 21:30:41.417--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Usuario] is set to [FIELD].
-[EL Config]: metadata: 2025-08-08 21:30:41.433--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The target class (reference) class for the element collection mapping element [field telefones] is being defaulted to: class java.lang.String.
-[EL Config]: metadata: 2025-08-08 21:30:41.434--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Cliente] is set to [FIELD].
-[EL Config]: metadata: 2025-08-08 21:30:41.437--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the one to many mapping element [field imagens] is being defaulted to: class exemplo.jpa.Imagem.
-[EL Config]: metadata: 2025-08-08 21:30:41.438--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the one to one mapping element [field pedido] is being defaulted to: class exemplo.jpa.Pedido.
-[EL Config]: metadata: 2025-08-08 21:30:41.438--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Imagem] is set to [FIELD].
-[EL Config]: metadata: 2025-08-08 21:30:41.44--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the many to one mapping element [field cliente] is being defaulted to: class exemplo.jpa.Cliente.
-[EL Config]: metadata: 2025-08-08 21:30:41.44--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Fornecedor] is set to [FIELD].
-[EL Config]: metadata: 2025-08-08 21:30:41.44--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the many to many mapping element [field servicos] is being defaulted to: class exemplo.jpa.Servico.
-[EL Config]: metadata: 2025-08-08 21:30:41.441--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Pedido] is set to [FIELD].
-[EL Config]: metadata: 2025-08-08 21:30:41.441--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the one to one mapping element [field cliente] is being defaulted to: class exemplo.jpa.Cliente.
-[EL Config]: metadata: 2025-08-08 21:30:41.442--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Servico] is set to [FIELD].
-[EL Config]: metadata: 2025-08-08 21:30:41.442--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the many to many mapping element [field fornecedores] is being defaulted to: class exemplo.jpa.Fornecedor.
-[EL Config]: metadata: 2025-08-08 21:30:41.443--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Endereco] is set to [FIELD].
-[EL Config]: metadata: 2025-08-08 21:30:41.445--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Cliente] is being defaulted to: Cliente.
-[EL Config]: metadata: 2025-08-08 21:30:41.445--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Usuario] is being defaulted to: Usuario.
-[EL Config]: metadata: 2025-08-08 21:30:41.457--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Imagem] is being defaulted to: Imagem.
-[EL Config]: metadata: 2025-08-08 21:30:41.459--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Fornecedor] is being defaulted to: Fornecedor.
-[EL Config]: metadata: 2025-08-08 21:30:41.459--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Pedido] is being defaulted to: Pedido.
-[EL Config]: metadata: 2025-08-08 21:30:41.461--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Servico] is being defaulted to: Servico.
-[EL Config]: metadata: 2025-08-08 21:30:41.47--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The primary key column name for the mapping element [field telefones] is being defaulted to: ID.
-[EL Config]: metadata: 2025-08-08 21:30:41.475--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The primary key column name for the mapping element [field cliente] is being defaulted to: ID.
-[EL Config]: metadata: 2025-08-08 21:30:41.476--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The source primary key column name for the many to many mapping [field servicos] is being defaulted to: ID.
-[EL Config]: metadata: 2025-08-08 21:30:41.476--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--The target primary key column name for the many to many mapping [field servicos] is being defaulted to: ID.
-[EL Info]: 2025-08-08 21:30:41.599--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--EclipseLink, version: Eclipse Persistence Services - 4.0.4.v202407190748-059428cdd2583c46f1f3e50d235854840a6fa9a7
-[EL Fine]: connection: 2025-08-08 21:30:41.603--ServerSession(1644231115)--Connection(1440738283)--Thread(Thread[#3,main,5,main])--connecting(DatabaseLogin(
+  <testcase name="ClienteImagens" classname="exemplo.jpa.teste.jpqltests.ClienteTests" time="0.088">
+    <system-out><![CDATA[[EL Fine]: moxy: 2025-08-13 23:19:57.902--Thread(Thread[#3,main,5,main])--SAXParserFactory instance: com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl@7eae3764
+[EL Fine]: server: 2025-08-13 23:19:57.907--Thread(Thread[#3,main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2025-08-13 23:19:57.938--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Usuario] is set to [FIELD].
+[EL Config]: metadata: 2025-08-13 23:19:57.943--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The target class (reference) class for the element collection mapping element [field telefones] is being defaulted to: class java.lang.String.
+[EL Config]: metadata: 2025-08-13 23:19:57.944--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Cliente] is set to [FIELD].
+[EL Config]: metadata: 2025-08-13 23:19:57.945--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the one to many mapping element [field imagens] is being defaulted to: class exemplo.jpa.Imagem.
+[EL Config]: metadata: 2025-08-13 23:19:57.946--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the one to one mapping element [field pedido] is being defaulted to: class exemplo.jpa.Pedido.
+[EL Config]: metadata: 2025-08-13 23:19:57.946--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Imagem] is set to [FIELD].
+[EL Config]: metadata: 2025-08-13 23:19:57.947--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the many to one mapping element [field cliente] is being defaulted to: class exemplo.jpa.Cliente.
+[EL Config]: metadata: 2025-08-13 23:19:57.948--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Fornecedor] is set to [FIELD].
+[EL Config]: metadata: 2025-08-13 23:19:57.948--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the many to many mapping element [field servicos] is being defaulted to: class exemplo.jpa.Servico.
+[EL Config]: metadata: 2025-08-13 23:19:57.949--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Pedido] is set to [FIELD].
+[EL Config]: metadata: 2025-08-13 23:19:57.949--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the one to one mapping element [field cliente] is being defaulted to: class exemplo.jpa.Cliente.
+[EL Config]: metadata: 2025-08-13 23:19:57.95--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Servico] is set to [FIELD].
+[EL Config]: metadata: 2025-08-13 23:19:57.951--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The target entity (reference) class for the many to many mapping element [field fornecedores] is being defaulted to: class exemplo.jpa.Fornecedor.
+[EL Config]: metadata: 2025-08-13 23:19:57.951--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The access type for the persistent class [class exemplo.jpa.Endereco] is set to [FIELD].
+[EL Config]: metadata: 2025-08-13 23:19:57.954--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Cliente] is being defaulted to: Cliente.
+[EL Config]: metadata: 2025-08-13 23:19:57.955--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Usuario] is being defaulted to: Usuario.
+[EL Config]: metadata: 2025-08-13 23:19:57.959--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Imagem] is being defaulted to: Imagem.
+[EL Config]: metadata: 2025-08-13 23:19:57.96--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Fornecedor] is being defaulted to: Fornecedor.
+[EL Config]: metadata: 2025-08-13 23:19:57.96--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Pedido] is being defaulted to: Pedido.
+[EL Config]: metadata: 2025-08-13 23:19:57.962--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The alias name for the entity class [class exemplo.jpa.Servico] is being defaulted to: Servico.
+[EL Config]: metadata: 2025-08-13 23:19:57.963--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The primary key column name for the mapping element [field telefones] is being defaulted to: ID.
+[EL Config]: metadata: 2025-08-13 23:19:57.964--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The primary key column name for the mapping element [field cliente] is being defaulted to: ID.
+[EL Config]: metadata: 2025-08-13 23:19:57.965--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The source primary key column name for the many to many mapping [field servicos] is being defaulted to: ID.
+[EL Config]: metadata: 2025-08-13 23:19:57.965--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--The target primary key column name for the many to many mapping [field servicos] is being defaulted to: ID.
+[EL Info]: 2025-08-13 23:19:57.98--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--EclipseLink, version: Eclipse Persistence Services - 4.0.4.v202407190748-059428cdd2583c46f1f3e50d235854840a6fa9a7
+[EL Fine]: connection: 2025-08-13 23:19:57.982--ServerSession(17680342)--Connection(811792884)--Thread(Thread[#3,main,5,main])--connecting(DatabaseLogin(
 	platform=>DerbyPlatform
 	user name=> "app"
 	datasource URL=> "jdbc:derby://localhost:1527/projeto-semestre;create=true"
 ))
-[EL Config]: connection: 2025-08-08 21:30:41.805--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--Connected: jdbc:derby://localhost:1527/projeto-semestre;create=true
+[EL Config]: connection: 2025-08-13 23:19:57.988--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--Connected: jdbc:derby://localhost:1527/projeto-semestre;create=true
 	User: app
 	Database: Apache Derby  Version: 10.17.1.0 - (1913217)
 	Driver: Apache Derby Network Client JDBC Driver  Version: 10.16.1.1 - (1901046)
-[EL Warning]: metadata: 2025-08-08 21:30:41.823--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [pedido] for the entity class [class exemplo.jpa.Cliente] since weaving was not enabled or did not occur.
-[EL Fine]: connection: 2025-08-08 21:30:41.867--ServerSession(1644231115)--Thread(Thread[#3,main,5,main])--/file:/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/classes/_projeto-semestre login successful
-[EL Fine]: sql: 2025-08-08 21:30:41.878--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE DROP CONSTRAINT TBCLIENTEIDUSUARIO
-[EL Fine]: sql: 2025-08-08 21:30:41.888--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE DROP CONSTRAINT TBCLIENTEID_PEDIDO
-[EL Fine]: sql: 2025-08-08 21:30:41.897--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_IMAGEM DROP CONSTRAINT TBIMAGEMID_USUARIO
-[EL Fine]: sql: 2025-08-08 21:30:41.911--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_FORNECEDOR DROP CONSTRAINT TBFRNECEDORDSUARIO
-[EL Fine]: sql: 2025-08-08 21:30:41.916--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO DROP CONSTRAINT TBSRIOSERVICODSRIO
-[EL Fine]: sql: 2025-08-08 21:30:41.929--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO DROP CONSTRAINT TBSROSERVICODSRVCO
-[EL Fine]: sql: 2025-08-08 21:30:41.942--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_TELEFONE DROP CONSTRAINT TBTELEFONEDUSUARIO
-[EL Fine]: sql: 2025-08-08 21:30:41.951--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_USUARIO
-[EL Fine]: sql: 2025-08-08 21:30:41.985--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_CLIENTE
-[EL Fine]: sql: 2025-08-08 21:30:41.997--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_IMAGEM
-[EL Fine]: sql: 2025-08-08 21:30:42.014--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_FORNECEDOR
-[EL Fine]: sql: 2025-08-08 21:30:42.033--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_PEDIDO
-[EL Fine]: sql: 2025-08-08 21:30:42.046--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_SERVICO
-[EL Fine]: sql: 2025-08-08 21:30:42.065--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_USUARIO_SERVICO
-[EL Fine]: sql: 2025-08-08 21:30:42.08--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_TELEFONE
-[EL Fine]: sql: 2025-08-08 21:30:42.099--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_USUARIO (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, DISC_USUARIO VARCHAR(10), TXT_CPF VARCHAR(14) NOT NULL UNIQUE, TXT_EMAIL VARCHAR(50) NOT NULL, TXT_LOGIN VARCHAR(50) NOT NULL UNIQUE, TXT_NOME VARCHAR(255) NOT NULL, TXT_SENHA VARCHAR(20) NOT NULL, END_TXT_BAIRRO VARCHAR(150) NOT NULL, END_TXT_CEP VARCHAR(20) NOT NULL, END_TXT_CIDADE VARCHAR(50) NOT NULL, END_TXT_COMPLEMENTO VARCHAR(30), END_TXT_ESTADO VARCHAR(50) NOT NULL, END_TXT_LOGRADOURO VARCHAR(150) NOT NULL, END_NUMERO INTEGER NOT NULL, PRIMARY KEY (ID))
-[EL Fine]: sql: 2025-08-08 21:30:42.13--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_CLIENTE (ID_USUARIO BIGINT NOT NULL, ID_PEDIDO BIGINT, PRIMARY KEY (ID_USUARIO))
-[EL Fine]: sql: 2025-08-08 21:30:42.146--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_IMAGEM (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, BYTE_IMAGE BLOB(2147483647) NOT NULL, ID_USUARIO BIGINT, PRIMARY KEY (ID))
-[EL Fine]: sql: 2025-08-08 21:30:42.169--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_FORNECEDOR (ID_USUARIO BIGINT NOT NULL, PRIMARY KEY (ID_USUARIO))
-[EL Fine]: sql: 2025-08-08 21:30:42.182--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_PEDIDO (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, DT_PEDIDO DATE NOT NULL, TXT_TIPO_PAGAMENTO VARCHAR(20) NOT NULL, PRIMARY KEY (ID))
-[EL Fine]: sql: 2025-08-08 21:30:42.197--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_SERVICO (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, TXT_NOME VARCHAR(50) NOT NULL, TXT_PRECO FLOAT NOT NULL, TXT_TIPO VARCHAR(50) NOT NULL, PRIMARY KEY (ID))
-[EL Fine]: sql: 2025-08-08 21:30:42.212--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_USUARIO_SERVICO (ID_USUARIO BIGINT NOT NULL, ID_SERVICO BIGINT NOT NULL, PRIMARY KEY (ID_USUARIO, ID_SERVICO))
-[EL Fine]: sql: 2025-08-08 21:30:42.228--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_TELEFONE (ID_USUARIO BIGINT NOT NULL, TXT_NUM_TELEFONE VARCHAR(20) NOT NULL)
-[EL Fine]: sql: 2025-08-08 21:30:42.235--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE ADD CONSTRAINT TBCLIENTEIDUSUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
-[EL Fine]: sql: 2025-08-08 21:30:42.24--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE ADD CONSTRAINT TBCLIENTEID_PEDIDO FOREIGN KEY (ID_PEDIDO) REFERENCES TB_PEDIDO (ID)
-[EL Fine]: sql: 2025-08-08 21:30:42.254--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_IMAGEM ADD CONSTRAINT TBIMAGEMID_USUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
-[EL Fine]: sql: 2025-08-08 21:30:42.265--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_FORNECEDOR ADD CONSTRAINT TBFRNECEDORDSUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
-[EL Fine]: sql: 2025-08-08 21:30:42.269--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO ADD CONSTRAINT TBSRIOSERVICODSRIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
-[EL Fine]: sql: 2025-08-08 21:30:42.281--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO ADD CONSTRAINT TBSROSERVICODSRVCO FOREIGN KEY (ID_SERVICO) REFERENCES TB_SERVICO (ID)
-[EL Fine]: sql: 2025-08-08 21:30:42.292--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_TELEFONE ADD CONSTRAINT TBTELEFONEDUSUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
-[EL Fine]: sql: 2025-08-08 21:30:42.622--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE (((t0.END_TXT_ESTADO = ?) OR (t0.END_TXT_ESTADO = ?)) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
-	bind => [SP, RJ, Cliente]
-[EL Fine]: sql: 2025-08-08 21:30:42.635--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
-	bind => [1]
-[EL Fine]: sql: 2025-08-08 21:30:42.64--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
-	bind => [1, Cliente]
-[EL Fine]: sql: 2025-08-08 21:30:42.647--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+[EL Warning]: metadata: 2025-08-13 23:19:57.989--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--Reverting the lazy setting on the OneToOne or ManyToOne attribute [pedido] for the entity class [class exemplo.jpa.Cliente] since weaving was not enabled or did not occur.
+[EL Fine]: connection: 2025-08-13 23:19:58.0--ServerSession(17680342)--Thread(Thread[#3,main,5,main])--/file:/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/target/classes/_projeto-semestre login successful
+[EL Fine]: sql: 2025-08-13 23:19:58.004--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE DROP CONSTRAINT TBCLIENTEIDUSUARIO
+[EL Fine]: sql: 2025-08-13 23:19:58.02--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE DROP CONSTRAINT TBCLIENTEID_PEDIDO
+[EL Fine]: sql: 2025-08-13 23:19:58.034--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_IMAGEM DROP CONSTRAINT TBIMAGEMID_USUARIO
+[EL Fine]: sql: 2025-08-13 23:19:58.049--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_FORNECEDOR DROP CONSTRAINT TBFRNECEDORDSUARIO
+[EL Fine]: sql: 2025-08-13 23:19:58.056--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO DROP CONSTRAINT TBSRIOSERVICODSRIO
+[EL Fine]: sql: 2025-08-13 23:19:58.069--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO DROP CONSTRAINT TBSROSERVICODSRVCO
+[EL Fine]: sql: 2025-08-13 23:19:58.083--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_TELEFONE DROP CONSTRAINT TBTELEFONEDUSUARIO
+[EL Fine]: sql: 2025-08-13 23:19:58.098--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_USUARIO
+[EL Fine]: sql: 2025-08-13 23:19:58.141--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_CLIENTE
+[EL Fine]: sql: 2025-08-13 23:19:58.165--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_IMAGEM
+[EL Fine]: sql: 2025-08-13 23:19:58.183--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_FORNECEDOR
+[EL Fine]: sql: 2025-08-13 23:19:58.202--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_PEDIDO
+[EL Fine]: sql: 2025-08-13 23:19:58.225--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_SERVICO
+[EL Fine]: sql: 2025-08-13 23:19:58.249--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_USUARIO_SERVICO
+[EL Fine]: sql: 2025-08-13 23:19:58.271--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--DROP TABLE TB_TELEFONE
+[EL Fine]: sql: 2025-08-13 23:19:58.296--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_USUARIO (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, DISC_USUARIO VARCHAR(10), TXT_CPF VARCHAR(14) NOT NULL UNIQUE, TXT_EMAIL VARCHAR(50) NOT NULL, TXT_LOGIN VARCHAR(50) NOT NULL UNIQUE, TXT_NOME VARCHAR(255) NOT NULL, TXT_SENHA VARCHAR(20) NOT NULL, END_TXT_BAIRRO VARCHAR(150) NOT NULL, END_TXT_CEP VARCHAR(20) NOT NULL, END_TXT_CIDADE VARCHAR(50) NOT NULL, END_TXT_COMPLEMENTO VARCHAR(30), END_TXT_ESTADO VARCHAR(50) NOT NULL, END_TXT_LOGRADOURO VARCHAR(150) NOT NULL, END_NUMERO INTEGER NOT NULL, PRIMARY KEY (ID))
+[EL Fine]: sql: 2025-08-13 23:19:58.348--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_CLIENTE (ID_USUARIO BIGINT NOT NULL, ID_PEDIDO BIGINT, PRIMARY KEY (ID_USUARIO))
+[EL Fine]: sql: 2025-08-13 23:19:58.376--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_IMAGEM (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, BYTE_IMAGE BLOB(2147483647) NOT NULL, ID_USUARIO BIGINT, PRIMARY KEY (ID))
+[EL Fine]: sql: 2025-08-13 23:19:58.401--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_FORNECEDOR (ID_USUARIO BIGINT NOT NULL, PRIMARY KEY (ID_USUARIO))
+[EL Fine]: sql: 2025-08-13 23:19:58.426--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_PEDIDO (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, DT_PEDIDO DATE NOT NULL, TXT_TIPO_PAGAMENTO VARCHAR(20) NOT NULL, PRIMARY KEY (ID))
+[EL Fine]: sql: 2025-08-13 23:19:58.45--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_SERVICO (ID BIGINT GENERATED BY DEFAULT AS IDENTITY NOT NULL, TXT_NOME VARCHAR(50) NOT NULL, TXT_PRECO FLOAT NOT NULL, TXT_TIPO VARCHAR(50) NOT NULL, PRIMARY KEY (ID))
+[EL Fine]: sql: 2025-08-13 23:19:58.477--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_USUARIO_SERVICO (ID_USUARIO BIGINT NOT NULL, ID_SERVICO BIGINT NOT NULL, PRIMARY KEY (ID_USUARIO, ID_SERVICO))
+[EL Fine]: sql: 2025-08-13 23:19:58.501--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--CREATE TABLE TB_TELEFONE (ID_USUARIO BIGINT NOT NULL, TXT_NUM_TELEFONE VARCHAR(20) NOT NULL)
+[EL Fine]: sql: 2025-08-13 23:19:58.511--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE ADD CONSTRAINT TBCLIENTEIDUSUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
+[EL Fine]: sql: 2025-08-13 23:19:58.519--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_CLIENTE ADD CONSTRAINT TBCLIENTEID_PEDIDO FOREIGN KEY (ID_PEDIDO) REFERENCES TB_PEDIDO (ID)
+[EL Fine]: sql: 2025-08-13 23:19:58.534--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_IMAGEM ADD CONSTRAINT TBIMAGEMID_USUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
+[EL Fine]: sql: 2025-08-13 23:19:58.551--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_FORNECEDOR ADD CONSTRAINT TBFRNECEDORDSUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
+[EL Fine]: sql: 2025-08-13 23:19:58.559--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO ADD CONSTRAINT TBSRIOSERVICODSRIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
+[EL Fine]: sql: 2025-08-13 23:19:58.579--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_USUARIO_SERVICO ADD CONSTRAINT TBSROSERVICODSRVCO FOREIGN KEY (ID_SERVICO) REFERENCES TB_SERVICO (ID)
+[EL Fine]: sql: 2025-08-13 23:19:58.594--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--ALTER TABLE TB_TELEFONE ADD CONSTRAINT TBTELEFONEDUSUARIO FOREIGN KEY (ID_USUARIO) REFERENCES TB_USUARIO (ID)
+[EL Fine]: sql: 2025-08-13 23:19:59.042--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE (((SELECT COUNT(t2.ID) FROM TB_IMAGEM t2 WHERE (t2.ID_USUARIO = t0.ID)) > ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [0, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.057--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
 	bind => [2]
-[EL Fine]: sql: 2025-08-08 21:30:42.649--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+[EL Fine]: sql: 2025-08-13 23:19:59.064--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
 	bind => [2, Cliente]
-[EL Fine]: sql: 2025-08-08 21:30:42.652--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
-	bind => [3]
-[EL Fine]: sql: 2025-08-08 21:30:42.653--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
-	bind => [3, Cliente]
-[EL Fine]: sql: 2025-08-08 21:30:42.654--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
-	bind => [4]
-[EL Fine]: sql: 2025-08-08 21:30:42.655--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
-	bind => [4, Cliente]
-[EL Fine]: sql: 2025-08-08 21:30:42.657--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+[EL Fine]: sql: 2025-08-13 23:19:59.073--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
 	bind => [5]
-[EL Fine]: sql: 2025-08-08 21:30:42.657--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+[EL Fine]: sql: 2025-08-13 23:19:59.075--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
 	bind => [5, Cliente]
-[EL Fine]: sql: 2025-08-08 21:30:42.659--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+[EL Fine]: sql: 2025-08-13 23:19:59.078--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
 	bind => [6]
-[EL Fine]: sql: 2025-08-08 21:30:42.659--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+[EL Fine]: sql: 2025-08-13 23:19:59.081--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
 	bind => [6, Cliente]
-[EL Fine]: sql: 2025-08-08 21:30:42.66--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+[EL Fine]: sql: 2025-08-13 23:19:59.084--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
 	bind => [7]
-[EL Fine]: sql: 2025-08-08 21:30:42.661--ServerSession(1644231115)--Connection(144699438)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+[EL Fine]: sql: 2025-08-13 23:19:59.086--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [7, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.091--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, BYTE_IMAGE, ID_USUARIO FROM TB_IMAGEM WHERE (ID_USUARIO = ?)
+	bind => [2]
+[EL Fine]: sql: 2025-08-13 23:19:59.107--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, BYTE_IMAGE, ID_USUARIO FROM TB_IMAGEM WHERE (ID_USUARIO = ?)
+	bind => [12]
+[EL Fine]: sql: 2025-08-13 23:19:59.111--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, BYTE_IMAGE, ID_USUARIO FROM TB_IMAGEM WHERE (ID_USUARIO = ?)
+	bind => [13]
+[EL Fine]: sql: 2025-08-13 23:19:59.116--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, BYTE_IMAGE, ID_USUARIO FROM TB_IMAGEM WHERE (ID_USUARIO = ?)
+	bind => [14]
+]]></system-out>
+    <system-err><![CDATA[ago. 13, 2025 11:19:59 PM exemplo.jpa.teste.jpqltests.ClienteTests ClienteImagens
+INFORMAÇÕES: Executando ClienteImagens()
+]]></system-err>
+  </testcase>
+  <testcase name="ImagensMemberOfCliente" classname="exemplo.jpa.teste.jpqltests.ClienteTests" time="0.044">
+    <system-out><![CDATA[[EL Fine]: sql: 2025-08-13 23:19:59.125--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, BYTE_IMAGE, ID_USUARIO FROM TB_IMAGEM WHERE (ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2025-08-13 23:19:59.133--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t0.ID = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [2, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.143--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2025-08-13 23:19:59.146--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [2, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.156--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t1.ID, t1.DISC_USUARIO, t1.TXT_CPF, t1.TXT_EMAIL, t1.TXT_LOGIN, t1.TXT_NOME, t1.TXT_SENHA, t1.END_TXT_BAIRRO, t1.END_TXT_CEP, t1.END_TXT_CIDADE, t1.END_TXT_COMPLEMENTO, t1.END_TXT_ESTADO, t1.END_TXT_LOGRADOURO, t1.END_NUMERO, t2.ID_USUARIO, t2.ID_PEDIDO FROM TB_IMAGEM t0, TB_CLIENTE t2, TB_USUARIO t1 WHERE (((? = t0.ID) AND ((t2.ID_USUARIO = t1.ID) AND (t1.DISC_USUARIO = ?))) AND (t0.ID_USUARIO = t1.ID))
+	bind => [3, Cliente]
+]]></system-out>
+  </testcase>
+  <testcase name="ClienteImagensSize" classname="exemplo.jpa.teste.jpqltests.ClienteTests" time="0.031">
+    <system-out><![CDATA[[EL Fine]: sql: 2025-08-13 23:19:59.175--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE (((SELECT COUNT(t2.ID) FROM TB_IMAGEM t2 WHERE (t2.ID_USUARIO = t0.ID)) >= ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [4, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.187--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2025-08-13 23:19:59.189--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [2, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.191--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, BYTE_IMAGE, ID_USUARIO FROM TB_IMAGEM WHERE (ID_USUARIO = ?)
+	bind => [2]
+]]></system-out>
+    <system-err><![CDATA[ago. 13, 2025 11:19:59 PM exemplo.jpa.teste.jpqltests.ClienteTests ClienteImagensSize
+INFORMAÇÕES: Executando ClienteImagensSize()
+]]></system-err>
+  </testcase>
+  <testcase name="ClienteLeftJoinPedido" classname="exemplo.jpa.teste.jpqltests.ClienteTests" time="0.061">
+    <system-out><![CDATA[[EL Fine]: sql: 2025-08-13 23:19:59.206--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t1.ID, t1.DISC_USUARIO, t1.TXT_CPF, t1.TXT_EMAIL, t1.TXT_LOGIN, t1.TXT_NOME, t1.TXT_SENHA, t1.END_TXT_BAIRRO, t1.END_TXT_CEP, t1.END_TXT_CIDADE, t1.END_TXT_COMPLEMENTO, t1.END_TXT_ESTADO, t1.END_TXT_LOGRADOURO, t1.END_NUMERO, t2.ID_USUARIO, t2.ID_PEDIDO FROM TB_CLIENTE t2 LEFT OUTER JOIN TB_PEDIDO t0 ON (t0.ID = t2.ID_PEDIDO), TB_USUARIO t1 WHERE ((t2.ID_USUARIO = t1.ID) AND (t1.DISC_USUARIO = ?))
+	bind => [Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.219--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2025-08-13 23:19:59.22--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [1, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.223--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2025-08-13 23:19:59.225--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [2, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.227--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2025-08-13 23:19:59.229--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [3, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.232--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [4]
+[EL Fine]: sql: 2025-08-13 23:19:59.234--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [4, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.236--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [5]
+[EL Fine]: sql: 2025-08-13 23:19:59.238--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [5, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.242--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [6]
+[EL Fine]: sql: 2025-08-13 23:19:59.245--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [6, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.248--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [7]
+[EL Fine]: sql: 2025-08-13 23:19:59.25--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
 	bind => [7, Cliente]
 ]]></system-out>
-    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+    <system-err><![CDATA[ago. 13, 2025 11:19:59 PM exemplo.jpa.teste.jpqltests.ClienteTests ClienteLeftJoinPedido
+INFORMAÇÕES: Executando ClienteLeftJoinPedido()
 ]]></system-err>
+  </testcase>
+  <testcase name="ClienteJoinPedido" classname="exemplo.jpa.teste.jpqltests.ClienteTests" time="0.021">
+    <system-out><![CDATA[[EL Fine]: sql: 2025-08-13 23:19:59.263--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID FROM TB_USUARIO t0, TB_PEDIDO t2, TB_CLIENTE t1 WHERE (((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)) AND (t2.ID = t1.ID_PEDIDO))
+	bind => [Cliente]
+]]></system-out>
+    <system-err><![CDATA[ago. 13, 2025 11:19:59 PM exemplo.jpa.teste.jpqltests.ClienteTests ClienteJoinPedido
+INFORMAÇÕES: Executando ClienteJoinPedido()
+]]></system-err>
+  </testcase>
+  <testcase name="ClienteDeSaoPaulo" classname="exemplo.jpa.teste.jpqltests.ClienteTests" time="0.013">
+    <system-out><![CDATA[[EL Fine]: sql: 2025-08-13 23:19:59.286--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE (t0.TXT_NOME LIKE ? AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [Alice Lima, Cliente]
+]]></system-out>
+    <system-err><![CDATA[ago. 13, 2025 11:19:59 PM exemplo.jpa.teste.jpqltests.ClienteTests ClienteDeSaoPaulo
+INFORMAÇÕES: Executando ClienteDeSaoPaulo()
+]]></system-err>
+  </testcase>
+  <testcase name="ClientesEstadoSP" classname="exemplo.jpa.teste.jpqltests.ClienteTests" time="0.015">
+    <system-out><![CDATA[[EL Fine]: sql: 2025-08-13 23:19:59.3--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT COUNT(t0.ID) FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t0.END_TXT_ESTADO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [SP, Cliente]
+]]></system-out>
+    <system-err><![CDATA[ago. 13, 2025 11:19:59 PM exemplo.jpa.teste.jpqltests.ClienteTests ClientesEstadoSP
+INFORMAÇÕES: Executando ClientesPorEstado()
+]]></system-err>
+  </testcase>
+  <testcase name="ClienteNamedQueryPedido" classname="exemplo.jpa.teste.jpqltests.ClienteTests" time="0.035">
+    <system-out><![CDATA[[EL Fine]: sql: 2025-08-13 23:19:59.315--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t1.ID, t1.DISC_USUARIO, t1.TXT_CPF, t1.TXT_EMAIL, t1.TXT_LOGIN, t1.TXT_NOME, t1.TXT_SENHA, t1.END_TXT_BAIRRO, t1.END_TXT_CEP, t1.END_TXT_CIDADE, t1.END_TXT_COMPLEMENTO, t1.END_TXT_ESTADO, t1.END_TXT_LOGRADOURO, t1.END_NUMERO, t2.ID_USUARIO, t2.ID_PEDIDO FROM TB_PEDIDO t0, TB_CLIENTE t2, TB_USUARIO t1 WHERE ((t0.TXT_TIPO_PAGAMENTO LIKE ? AND ((t2.ID_USUARIO = t1.ID) AND (t1.DISC_USUARIO = ?))) AND (t0.ID = t2.ID_PEDIDO))
+	bind => [PIX, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.328--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2025-08-13 23:19:59.33--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [1, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.332--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2025-08-13 23:19:59.334--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [3, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.336--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [4]
+[EL Fine]: sql: 2025-08-13 23:19:59.338--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [4, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.342--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [7]
+[EL Fine]: sql: 2025-08-13 23:19:59.343--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [7, Cliente]
+]]></system-out>
+    <system-err><![CDATA[ago. 13, 2025 11:19:59 PM exemplo.jpa.teste.jpqltests.ClienteTests ClienteNamedQueryPedido
+INFORMAÇÕES: Executando ClienteImagensSize()
+]]></system-err>
+  </testcase>
+  <testcase name="ClientesDeSPERJ" classname="exemplo.jpa.teste.jpqltests.ClienteTests" time="0.051">
+    <system-out><![CDATA[[EL Fine]: sql: 2025-08-13 23:19:59.355--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t0.END_TXT_ESTADO IN (?, ?)) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [SP, RJ, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.365--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2025-08-13 23:19:59.367--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [1, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.372--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2025-08-13 23:19:59.375--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [2, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.377--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2025-08-13 23:19:59.379--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [3, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.381--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [4]
+[EL Fine]: sql: 2025-08-13 23:19:59.382--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [4, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.384--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [5]
+[EL Fine]: sql: 2025-08-13 23:19:59.386--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [5, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.387--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [6]
+[EL Fine]: sql: 2025-08-13 23:19:59.388--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [6, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.39--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [7]
+[EL Fine]: sql: 2025-08-13 23:19:59.392--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [7, Cliente]
+]]></system-out>
+  </testcase>
+  <testcase name="QuantidadeDeClientes" classname="exemplo.jpa.teste.jpqltests.ClienteTests" time="0.01">
+    <system-out><![CDATA[[EL Fine]: sql: 2025-08-13 23:19:59.402--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT COUNT(t0.ID) FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?))
+	bind => [Cliente]
+]]></system-out>
+    <system-err><![CDATA[ago. 13, 2025 11:19:59 PM exemplo.jpa.teste.jpqltests.ClienteTests QuantidadeDeClientes
+INFORMAÇÕES: Executando QuantidadeDeClientes()
+]]></system-err>
+  </testcase>
+  <testcase name="ClientesDeSPOuRJ" classname="exemplo.jpa.teste.jpqltests.ClienteTests" time="0.04">
+    <system-out><![CDATA[[EL Fine]: sql: 2025-08-13 23:19:59.413--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE (((t0.END_TXT_ESTADO = ?) OR (t0.END_TXT_ESTADO = ?)) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [SP, RJ, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.42--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [1]
+[EL Fine]: sql: 2025-08-13 23:19:59.422--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [1, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.424--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [2]
+[EL Fine]: sql: 2025-08-13 23:19:59.425--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [2, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.428--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [3]
+[EL Fine]: sql: 2025-08-13 23:19:59.43--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [3, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.432--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [4]
+[EL Fine]: sql: 2025-08-13 23:19:59.434--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [4, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.436--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [5]
+[EL Fine]: sql: 2025-08-13 23:19:59.438--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [5, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.439--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [6]
+[EL Fine]: sql: 2025-08-13 23:19:59.441--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [6, Cliente]
+[EL Fine]: sql: 2025-08-13 23:19:59.444--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT ID, DT_PEDIDO, TXT_TIPO_PAGAMENTO FROM TB_PEDIDO WHERE (ID = ?)
+	bind => [7]
+[EL Fine]: sql: 2025-08-13 23:19:59.446--ServerSession(17680342)--Connection(538375433)--Thread(Thread[#3,main,5,main])--SELECT t0.ID, t0.DISC_USUARIO, t0.TXT_CPF, t0.TXT_EMAIL, t0.TXT_LOGIN, t0.TXT_NOME, t0.TXT_SENHA, t0.END_TXT_BAIRRO, t0.END_TXT_CEP, t0.END_TXT_CIDADE, t0.END_TXT_COMPLEMENTO, t0.END_TXT_ESTADO, t0.END_TXT_LOGRADOURO, t0.END_NUMERO, t1.ID_USUARIO, t1.ID_PEDIDO FROM TB_USUARIO t0, TB_CLIENTE t1 WHERE ((t1.ID_PEDIDO = ?) AND ((t1.ID_USUARIO = t0.ID) AND (t0.DISC_USUARIO = ?)))
+	bind => [7, Cliente]
+]]></system-out>
   </testcase>
 </testsuite>

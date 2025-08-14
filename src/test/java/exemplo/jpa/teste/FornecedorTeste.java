@@ -30,7 +30,7 @@ public class FornecedorTeste extends Teste{
         fornecedor.setNome("Fulano da silva");
         fornecedor.setEmail("fulano@gmail.com");
         fornecedor.setLogin("fulano");
-        fornecedor.setSenha("teste");
+        fornecedor.setSenha("Teste@123");
         fornecedor.setCpf("152.792.090-90");
         fornecedor.addTelefone("888884325");
         
@@ -92,11 +92,11 @@ public class FornecedorTeste extends Teste{
     public void CatualizaFornecedor() {
         logger.info("Executando atualizaFornecedor()");
         Fornecedor fornecedor = em.find(Fornecedor.class, 3L);
-        fornecedor.setSenha("4321");
+        fornecedor.setSenha("Nova@123");
         em.flush();
         em.clear(); // Limpa a cache para buscar no banco.
         Fornecedor fornecedorVerificado = em.find(Fornecedor.class, 3L);
-        assertEquals("4321", fornecedorVerificado.getSenha());
+        assertEquals("Nova@123", fornecedorVerificado.getSenha());
     }
 
     @Test

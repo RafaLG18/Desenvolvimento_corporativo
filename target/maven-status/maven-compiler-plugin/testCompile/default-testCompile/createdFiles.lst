@@ -1,6 +1,6 @@
 exemplo/jpa/teste/PedidoTeste.class
-exemplo/jpa/teste/jpqltests/ServicoTests.class
 exemplo/jpa/teste/ServicoTeste.class
+exemplo/jpa/teste/jpqltests/ServicoTests.class
 exemplo/jpa/teste/jpqltests/GenericTest.class
 exemplo/jpa/teste/jpqltests/ClienteTests.class
 exemplo/jpa/teste/ImagemTeste.class

@@ -1,6 +1,5 @@
 package exemplo.jpa;
 
-import jakarta.persistence.CascadeType;
 import jakarta.persistence.CollectionTable;
 import jakarta.persistence.Column;
 import jakarta.persistence.DiscriminatorColumn;
@@ -15,14 +14,16 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Inheritance;
 import jakarta.persistence.InheritanceType;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.JoinTable;
-import jakarta.persistence.ManyToMany;
-import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
-import java.util.ArrayList;
+import jakarta.validation.Valid;
 import java.util.Collection;
 import java.util.HashSet;
-import java.util.List;
+import org.hibernate.validator.constraints.br.CPF;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Size;
 
 // Criar testes para o Fornecedor e também para o Cliente
 // Criar relação one to one.
@@ -36,19 +37,37 @@ public abstract class Usuario {
     @Column(name = "ID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    
+    @Valid
     @Embedded
-    private Endereco endereco;   
+    private Endereco endereco;
+    
+    @NotNull
+    @CPF
     @Column(name = "TXT_CPF", nullable = false, length = 14, unique = true)
     private String cpf;
+    
+    @NotBlank
     @Column(name = "TXT_LOGIN", nullable = false, length = 50, unique = true)
     private String login;
+    
+    @NotBlank
     @Column(name = "TXT_NOME", nullable = false, length = 255)
     private String nome;
+    
+    @NotBlank
+    @Email
     @Column(name = "TXT_EMAIL", nullable = false, length = 50)
     private String email;
+    
+    @NotBlank
+    @Size(min = 6, max = 20)
+    @Pattern(regexp = "((?=.*\\p{Digit})(?=.*\\p{Lower})(?=.*\\p{Upper})(?=.*\\p{Punct}).{6,20})", 
+            message = "{exemplo.jpa.Usuario.senha}")
     @Column(name = "TXT_SENHA", nullable = false, length = 20)
     private String senha;
     
+    @Size(max = 3)
     @ElementCollection(fetch = FetchType.LAZY) 
     @CollectionTable(name = "TB_TELEFONE", //nome da tabela que representa a coleção.
             //atributo na tabela que faz referência à chave primária de TB_USUARIO

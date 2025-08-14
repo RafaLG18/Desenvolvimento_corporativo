@@ -34,7 +34,7 @@ public class ClienteTeste extends Teste {
         cliente.setNome("Fulano da silva sauro barbosa");
         cliente.setEmail("fulano-sauro-barbosa@gmail.com");
         cliente.setLogin("fulano-sauro-barbosa");
-        cliente.setSenha("teste-1-barbosa");
+        cliente.setSenha("Teste1@barbosa");
         cliente.setCpf("342.645.800-48");
         cliente.addTelefone("888884325");
 
@@ -121,11 +121,11 @@ public class ClienteTeste extends Teste {
     public void CatualizaCliente() {
         logger.info("Executando atualizaCliente()");
         Cliente cliente = em.find(Cliente.class, 2L);
-        cliente.setSenha("12414555");
+        cliente.setSenha("Nova@123");
         em.flush();
         em.clear(); // Limpa a cache para buscar no banco.
         Cliente clienteVerificado = em.find(Cliente.class, 2L);
-        assertEquals("12414555", clienteVerificado.getSenha());
+        assertEquals("Nova@123", clienteVerificado.getSenha());
     }
 
     @Test
