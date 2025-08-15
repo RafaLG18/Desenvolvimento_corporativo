@@ -43,8 +43,8 @@ public class ClienteTeste extends Teste {
         endereco.setBairro("Iputinga");
         endereco.setComplemento("bloco b");
         endereco.setCidade("Recife");
-        endereco.setEstado("Pernambuco");
-        endereco.setCep("50690-220");
+        endereco.setEstado("PE");
+        endereco.setCep("50.690-220");
         endereco.setNumero(550);
         cliente.setEndereco(endereco);
 
@@ -121,6 +121,12 @@ public class ClienteTeste extends Teste {
     public void CatualizaCliente() {
         logger.info("Executando atualizaCliente()");
         Cliente cliente = em.find(Cliente.class, 2L);
+        
+        if (cliente.getEndereco() != null) {
+            cliente.getEndereco().setEstado("SP");
+            cliente.getEndereco().setCep("01.010-000");
+        }
+        
         cliente.setSenha("Nova@123");
         em.flush();
         em.clear(); // Limpa a cache para buscar no banco.
@@ -134,6 +140,11 @@ public class ClienteTeste extends Teste {
         
         Cliente cliente = em.find(Cliente.class, 2L);
         assertNotNull(cliente);
+        
+        if (cliente.getEndereco() != null) {
+            cliente.getEndereco().setEstado("SP");
+            cliente.getEndereco().setCep("01.010-000");
+        }
 
         em.clear(); 
         

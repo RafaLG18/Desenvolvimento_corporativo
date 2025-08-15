@@ -46,8 +46,8 @@ public class FornecedorTeste extends Teste{
         endereco.setLogradouro("Rua Iolanda Rodrigues Sobral");
         endereco.setBairro("Iputinga");
         endereco.setCidade("Recife");
-        endereco.setEstado("Pernambuco");
-        endereco.setCep("50690-220");
+        endereco.setEstado("PE");
+        endereco.setCep("50.690-220");
         endereco.setNumero(550);
         fornecedor.setEndereco(endereco);
         
@@ -92,6 +92,13 @@ public class FornecedorTeste extends Teste{
     public void CatualizaFornecedor() {
         logger.info("Executando atualizaFornecedor()");
         Fornecedor fornecedor = em.find(Fornecedor.class, 3L);
+        
+        // Fix validation issues in existing data
+        if (fornecedor.getEndereco() != null) {
+            fornecedor.getEndereco().setEstado("AM");
+            fornecedor.getEndereco().setCep("69.000-001");
+        }
+        
         fornecedor.setSenha("Nova@123");
         em.flush();
         em.clear(); // Limpa a cache para buscar no banco.
@@ -105,6 +112,12 @@ public class FornecedorTeste extends Teste{
         
         Fornecedor fornecedor = em.find(Fornecedor.class, 3L);
         assertNotNull(fornecedor);
+        
+        // Fix validation issues in existing data
+        if (fornecedor.getEndereco() != null) {
+            fornecedor.getEndereco().setEstado("AM");
+            fornecedor.getEndereco().setCep("69.000-001");
+        }
 
         em.clear(); 
         

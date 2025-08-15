@@ -2,6 +2,12 @@ package exemplo.jpa;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
+import jakarta.validation.constraints.Size;
 
 /*
  * Todos os campos de Endereco serão armazenados na mesma tabela 
@@ -9,18 +15,33 @@ import jakarta.persistence.Embeddable;
  */
 @Embeddable
 public class Endereco {
+    @NotBlank
+    @Size(max = 150)
     @Column(name = "END_TXT_LOGRADOURO", length = 150, nullable = false)
     private String logradouro;
+    @NotBlank
+    @Size(max = 150)
     @Column(name = "END_TXT_BAIRRO", length = 150, nullable = false)
     private String bairro;
+    @NotNull
+    @Min(1)
+    @Max(99999)
     @Column(name = "END_NUMERO", length = 5, nullable = false)
     private Integer numero;
+    @Size(max = 30)
     @Column(name = "END_TXT_COMPLEMENTO", length = 30, nullable = true)
     private String complemento;
+    @NotNull
+    @Pattern(regexp = "[0-90]{2}.[0-9]{3}-[0-9]{3}", message = "{exemplo.jpa.Endereco.cep}")
     @Column(name = "END_TXT_CEP", length = 20, nullable = false)
     private String cep;
+    @NotBlank
+    @Size(max = 50)
     @Column(name = "END_TXT_CIDADE", length = 50, nullable = false)
     private String cidade;
+    @NotBlank
+    @ValidaEstado
+    @Size(min = 2, max = 2)
     @Column(name = "END_TXT_ESTADO", length = 50, nullable = false)
     private String estado;
 
