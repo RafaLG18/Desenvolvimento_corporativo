@@ -4,10 +4,19 @@
  */
 package exemplo.jpa.teste.validationTests;
 
+import exemplo.jpa.teste.Teste;
+
 /**
  *
  * @author rafael
  */
-public class FornecedorValidation {
+public class FornecedorValidation extends Teste {
+    
+    public void persisteFornecedorInvalido(){
+        
+    }
+    public void atualizaFornecedorInvalido(){
+        
+    }
     
 }

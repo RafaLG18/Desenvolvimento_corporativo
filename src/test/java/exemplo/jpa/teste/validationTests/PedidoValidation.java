@@ -4,10 +4,19 @@
  */
 package exemplo.jpa.teste.validationTests;
 
+import exemplo.jpa.teste.Teste;
+
 /**
  *
  * @author rafael
  */
-public class PedidoValidation {
+public class PedidoValidation extends Teste{
+    
+    public void persistePedidoInvalido(){
+        
+    }
+    public void atualizaPedidoInvalido(){
+        
+    }
     
 }

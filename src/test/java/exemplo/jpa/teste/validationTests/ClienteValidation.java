@@ -4,10 +4,19 @@
  */
 package exemplo.jpa.teste.validationTests;
 
+import exemplo.jpa.teste.Teste;
+
 /**
  *
  * @author rafael
  */
-public class ClienteValidation {
+public class ClienteValidation extends Teste {
+    
+    public void persiteClienteInvalido(){
+        
+    }
+    public void atualizaClienteInvalido(){
+        
+    }
     
 }

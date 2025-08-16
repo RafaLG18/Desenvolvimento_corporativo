@@ -4,10 +4,19 @@
  */
 package exemplo.jpa.teste.validationTests;
 
+import exemplo.jpa.teste.Teste;
+
 /**
  *
  * @author rafael
  */
-public class ImagemValidation {
+public class ImagemValidation extends Teste {
+    
+    public void persisteImagemInvalido(){
+        
+    }
+    public void atualizaImagemInvalido(){
+        
+    }
     
 }
