@@ -15,6 +15,8 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,15 +31,17 @@ public class Servico {
     @Column(name = "ID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+    @NotBlank
     @Column(name = "TXT_NOME", nullable = false, length = 50, unique = false)
     private String nome;
+    @NotBlank
     @Column(name = "TXT_TIPO", nullable = false, length = 50, unique = false)
     private String tipo;
+    @NotNull
     @Column(name = "TXT_PRECO", nullable = false, length = 50, unique = false)
     private double preco;
     @ManyToMany(mappedBy="servicos")
-    private List<Fornecedor> fornecedores;
+    private List<Fornecedor> fornecedores = new ArrayList<>();
     
     // Fornecedores
     public List<Fornecedor> getFornecedores(){

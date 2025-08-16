@@ -19,6 +19,10 @@ import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
+import jakarta.validation.constraints.Future;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Past;
 import java.util.Date;
 
 /**
@@ -40,12 +44,15 @@ public class Pedido {
     @Column(name = "ID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)    
     private Long id;
+    @NotNull
     @Enumerated(EnumType.STRING)
     @Column(name="TXT_TIPO_PAGAMENTO",nullable=false,length=20)
     private TipoPagamento tipo;
+    @Past
     @Temporal(TemporalType.DATE)
     @Column(name = "DT_PEDIDO", nullable = false)
     private Date data;
+    @NotNull
     @OneToOne(mappedBy="pedido")
     private Cliente cliente;
     

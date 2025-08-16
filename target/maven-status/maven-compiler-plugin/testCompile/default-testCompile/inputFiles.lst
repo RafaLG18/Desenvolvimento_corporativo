@@ -11,3 +11,7 @@
 /home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/jpqltests/GenericTest.java
 /home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/jpqltests/PedidoTests.java
 /home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/jpqltests/ServicoTests.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/validationTests/ClienteValidation.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/validationTests/FornecedorValidation.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/validationTests/ImagemValidation.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/validationTests/PedidoValidation.java

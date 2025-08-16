@@ -13,6 +13,8 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.Lob;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 
 /**
  *
@@ -25,10 +27,12 @@ public class Imagem {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
     private Long id;
+    @NotNull
     @Lob
     @Column(name = "BYTE_IMAGE", nullable = false)
     private byte[] image;
     
+    @NotNull
     @ManyToOne
     @JoinColumn(name = "ID_USUARIO")
     private Cliente cliente;
