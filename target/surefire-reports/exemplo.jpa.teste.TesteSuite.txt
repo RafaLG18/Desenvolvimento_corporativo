@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: exemplo.jpa.teste.TesteSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.196 s -- in exemplo.jpa.teste.TesteSuite
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.173 s -- in exemplo.jpa.teste.TesteSuite
