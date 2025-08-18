@@ -4,8 +4,7 @@
  */
 package exemplo.jpa.teste.validationTests;
 
-import exemplo.jpa.Cliente;
-import exemplo.jpa.Imagem;
+import exemplo.jpa.Servico;
 import exemplo.jpa.teste.Teste;
 import jakarta.persistence.TypedQuery;
 import jakarta.validation.ConstraintViolation;
@@ -22,56 +21,51 @@ import org.junit.Test;
  *
  * @author rafael
  */
-public class ImagemValidation extends Teste {
-
+public class ServicoValidation extends Teste {
     @Test(expected = ConstraintViolationException.class)
-    public void persisteImagemInvalido() {
-        Imagem imagem = null;
+    public void persisteServicoInvalido() {
+        Servico servico = null;
         try {
-            Cliente cliente = null;
-            byte[] b = null;
-            imagem = new Imagem();
-            imagem.setCliente(cliente);// adicionar cliente vazio
-            imagem.setImagem(b);//adicionar imagem vazia
-            em.persist(imagem);
+            servico = new Servico();
+            servico.setNome(""); // Nome em branco (inválido)
+            servico.setTipo(""); // Tipo em branco (inválido)
+            
+            
+            em.persist(servico);
             em.flush();
-
+            
         } catch (ConstraintViolationException ex) {
             Set<ConstraintViolation<?>> constraintViolations = ex.getConstraintViolations();
 
             constraintViolations.forEach(violation -> {
                 assertThat(violation.getRootBeanClass() + "." + violation.getPropertyPath() + ": " + violation.getMessage(),
                         CoreMatchers.anyOf(
-                                startsWith("class exemplo.jpa.Imagem.cliente: não deve ser nulo"),
-                                startsWith("class exemplo.jpa.Imagem.image: não deve ser nulo")
+                                startsWith("class exemplo.jpa.Servico.nome: não deve estar em branco"),
+                                startsWith("class exemplo.jpa.Servico.tipo: não deve estar em branco")
                         )
                 );
             });
 
-            assertNull(imagem.getId());
+            assertNull(servico.getId());
             throw ex;
-
         }
-
     }
-
+    
     @Test(expected = ConstraintViolationException.class)
-    public void atualizaImagemInvalido() {
-        TypedQuery<Imagem> query = em.createQuery("SELECT i FROM Imagem i", Imagem.class);
+    public void atualizaServicoInvalido() {
+        TypedQuery<Servico> query = em.createQuery("SELECT s FROM Servico s", Servico.class);
         query.setMaxResults(1);
-        Imagem imagem = query.getSingleResult();
-        Cliente cliente = null;
-        imagem.setCliente(cliente);
+        Servico servico = query.getSingleResult();
+        servico.setNome(""); // Tornar nome em branco (inválido)
         
-        try{
+        try {
             em.flush();
-        } catch (ConstraintViolationException ex){
+        } catch (ConstraintViolationException ex) {
             ConstraintViolation violation = ex.getConstraintViolations().iterator().next();
-            assertEquals("não deve ser nulo", violation.getMessage());
+            assertEquals("não deve estar em branco", violation.getMessage());
             assertEquals(1, ex.getConstraintViolations().size());
             throw ex;
         }
-
     }
-
+    
 }
