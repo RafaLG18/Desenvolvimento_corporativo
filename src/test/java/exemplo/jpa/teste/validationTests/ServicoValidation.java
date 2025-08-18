@@ -41,7 +41,8 @@ public class ServicoValidation extends Teste {
                 assertThat(violation.getRootBeanClass() + "." + violation.getPropertyPath() + ": " + violation.getMessage(),
                         CoreMatchers.anyOf(
                                 startsWith("class exemplo.jpa.Servico.nome: não deve estar em branco"),
-                                startsWith("class exemplo.jpa.Servico.tipo: não deve estar em branco")
+                                startsWith("class exemplo.jpa.Servico.tipo: não deve estar em branco"),
+                                startsWith("class exemplo.jpa.Servico.preco: não deve ser nulo")
                         )
                 );
             });
