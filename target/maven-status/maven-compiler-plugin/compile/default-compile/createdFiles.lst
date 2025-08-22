@@ -1,4 +1,6 @@
+exemplo/jpa/ValidaCep.class
 exemplo/jpa/ValidaEstado.class
+exemplo/jpa/ValidadorCep.class
 exemplo/jpa/Imagem.class
 exemplo/jpa/TipoPagamento.class
 exemplo/jpa/Endereco.class

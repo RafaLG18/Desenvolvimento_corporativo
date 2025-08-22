@@ -6,7 +6,6 @@ import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 
 /*
@@ -32,7 +31,7 @@ public class Endereco {
     @Column(name = "END_TXT_COMPLEMENTO", length = 30, nullable = true)
     private String complemento;
     @NotNull
-    @Pattern(regexp = "[0-90]{2}.[0-9]{3}-[0-9]{3}", message = "{exemplo.jpa.Endereco.cep}")
+    @ValidaCep
     @Column(name = "END_TXT_CEP", length = 20, nullable = false)
     private String cep;
     @NotBlank

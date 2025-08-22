@@ -6,6 +6,10 @@
 /home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/ServicoTeste.java
 /home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/Teste.java
 /home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/TesteSuite.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/criteriaApi/ClienteTest.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/criteriaApi/FornecedorTest.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/criteriaApi/PedidoTest.java
+/home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/criteriaApi/ServicoTest.java
 /home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/jpqltests/ClienteTests.java
 /home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/jpqltests/FornecedoresTests.java
 /home/rafael/Documentos/projetos/faculdade/desenvolvimento-corporativo/projeto-semestre/src/test/java/exemplo/jpa/teste/jpqltests/GenericTest.java
