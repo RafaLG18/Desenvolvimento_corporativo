@@ -11,9 +11,7 @@ import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;
 import jakarta.persistence.criteria.Root;
 import java.util.List;
-import org.eclipse.persistence.sessions.Session;
 import static org.junit.Assert.assertEquals;
-//import org.junit.jupiter.api.BeforeEach
 import org.junit.Before;
 import org.junit.Test;
 /**

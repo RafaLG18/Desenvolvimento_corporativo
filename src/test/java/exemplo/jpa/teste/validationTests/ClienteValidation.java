@@ -85,7 +85,8 @@ public class ClienteValidation extends Teste {
     public void atualizaClienteInvalido(){
         TypedQuery<Cliente> query = em.createQuery("SELECT c FROM Cliente c WHERE c.cpf like '101.127.240-78'", Cliente.class);
         Cliente cliente = query.getSingleResult();
-        cliente.setEmail("email_invalido"); // Email inválido
+        
+         cliente.setEmail("email_invalido"); // Email inválido
 
         try {
             em.flush();
@@ -103,8 +104,13 @@ public class ClienteValidation extends Teste {
             }
             
             assertEquals("Deveria ter encontrado violação de email", true, emailViolationFound);
+            
+            assertEquals(3,violations.size());
+            
             throw ex;
         }
+
+       
     }
     
 }
